@@ -1,4 +1,5 @@
-package Controller;
+package src.Controller;
+
 import Model.OrderList;
 import utils.GenerateId;
 
@@ -13,13 +14,13 @@ public class OrderController {
     public void addOrderCSV(OrderList orderList) {
         GenerateId idMaker = new GenerateId();
         try {
-            String orderPath = "src/Data/Order.csv";
+            String orderPath = "src/Database/Order.csv";
             long Id = idMaker.idIncrementor(orderPath);
             FileWriter fw = new FileWriter(orderPath, true);
             BufferedWriter bw = new BufferedWriter(fw);
             PrintWriter pw = new PrintWriter(bw);
             for(int i =0; i<(orderList.getOrders()).size();i++){
-                pw.println("ORD" + Id + ";" +orderList.getDate() + ";" + (((orderList.getOrders()).get(i)).getProduct()).getName() + ";" + (((orderList.getOrders()).get(i)).getQuantity())  + ";" + (((orderList.getOrders()).get(i)).getTotal()) + ";" + orderList.getTotal() +";" + customerID + ";" + (orderList.getCustomer()).getFullName() + ";" + (orderList.getCustomer()).getPhoneNum() + ";" + "Delivered");
+                pw.println("ORD" + Id + ";" +orderList.getDate() + ";" + (((orderList.getOrders()).get(i)).getProducts()).getName() + ";" + (((orderList.getOrders()).get(i)).getQuantity())  + ";" + (((orderList.getOrders()).get(i)).getTotal()) + ";" + orderList.getTotal() +";" + customerID + ";" + (orderList.getCustomer()).getFullName() + ";" + (orderList.getCustomer()).getPhoneNum() + ";" + "Delivered");
             }
             pw.flush();
             pw.close();
@@ -32,12 +33,12 @@ public class OrderController {
     public String readLogIn(){
         String customerID = null;
         DataController dc = new DataController();
-        ArrayList<String> usernameList = dc.readData("src/Data/LoginUser.csv", 0);
+        ArrayList<String> usernameList = dc.readData("src/Database/LoginUser.csv", 0);
         String username = usernameList.get(0);
-        ArrayList<String> customerIdList = dc.readData("src/Data/CustomerRegister.csv", 0);
-        ArrayList<String> customerUserNameList = dc.readData("src/Data/CustomerRegister.csv", 3);
+        ArrayList<String> customerIdList = dc.readData("src/Database/CustomerRegister.csv", 0);
+        ArrayList<String> customerUserNameList = dc.readData("src/Database/CustomerRegister.csv", 3);
         GenerateId lineCount = new GenerateId();
-        for(int i =0; i<lineCount.idIncrementor("src/Data/CustomerRegister.csv"); i++){
+        for(int i =0; i<lineCount.idIncrementor("src/Database/CustomerRegister.csv"); i++){
             if(customerUserNameList.get(i).equals(username)){
                 customerID = customerIdList.get(i);
             }
@@ -48,12 +49,12 @@ public class OrderController {
     public String readRank(){
         String customerRank = null;
         DataController dc = new DataController();
-        ArrayList<String> usernameList = dc.readData("src/Data/LoginUser.csv", 0);
+        ArrayList<String> usernameList = dc.readData("src/Database/LoginUser.csv", 0);
         String username = usernameList.get(0);
-        ArrayList<String> customerRankList = dc.readData("src/Data/CustomerRegister.csv", 5);
-        ArrayList<String> customerUserNameList = dc.readData("src/Data/CustomerRegister.csv", 3);
+        ArrayList<String> customerRankList = dc.readData("src/Database/CustomerRegister.csv", 5);
+        ArrayList<String> customerUserNameList = dc.readData("src/Database/CustomerRegister.csv", 3);
         GenerateId lineCount = new GenerateId();
-        for(int i =0; i<lineCount.idIncrementor("src/Data/CustomerRegister.csv"); i++){
+        for(int i =0; i<lineCount.idIncrementor("src/Database/CustomerRegister.csv"); i++){
             if(customerUserNameList.get(i).equals(username)){
                 customerRank = customerRankList.get(i);
             }
@@ -65,13 +66,13 @@ public class OrderController {
         double totalExpense = 0;
         GenerateId lineCount = new GenerateId();
         DataController dc = new DataController();
-        ArrayList<String> customerIdList = dc.readData("src/Data/Order.csv",6);
-        ArrayList<String> customerExpense = dc.readData("src/Data/Order.csv",5);
-        ArrayList<String> customerOrderId = dc.readData("src/Data/Order.csv",0);
+        ArrayList<String> customerIdList = dc.readData("src/Database/Order.csv",6);
+        ArrayList<String> customerExpense = dc.readData("src/Database/Order.csv",5);
+        ArrayList<String> customerOrderId = dc.readData("src/Database/Order.csv",0);
         String customerId = readLogIn();
-        for (int i = 0; i < lineCount.idIncrementor("src/Data/Order.csv"); i++) {
+        for (int i = 0; i < lineCount.idIncrementor("src/Database/Order.csv"); i++) {
             if(customerIdList.get(i).equals(customerId)){
-                if(i == lineCount.idIncrementor("src/Data/Order.csv") -1){
+                if(i == lineCount.idIncrementor("src/Database/Order.csv") -1){
                     totalExpense += Double.parseDouble(customerExpense.get(i));
                     break;
                 }
