@@ -1,4 +1,4 @@
-package Customer;
+package Model;
 
 public class Product_order {
         private Products product;
