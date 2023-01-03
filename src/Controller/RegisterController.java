@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 
 public class RegisterController {
-    private final String path ="src/Data/Customer.csv";
+    private final String path ="src/Data/Customer.txt";
     private boolean existUser = false;
 public boolean checkExistUser(String username) throws IOException {
         DataFunction data = new DataFunction();
@@ -23,7 +23,7 @@ public boolean checkExistUser(String username) throws IOException {
         }
         return existUser;
 }
-public void createNewAccount(Customer customer) throws IOException {
+public void createNewAccount(Customer customer) {
     GenerateID generation = new GenerateID();
     try {
         FileWriter fileWriter = new FileWriter(this.path, true);

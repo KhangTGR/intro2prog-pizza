@@ -16,7 +16,7 @@ public class DataFunction {
         try(BufferedReader reader = new BufferedReader((new FileReader(filepath)))){
             String line = "";
             while ((line = reader.readLine()) != null) {
-                dataValues.add(line.split(";")[index]);
+                dataValues.add(line.split(",")[index - 1]);
             }
 
         }catch (FileNotFoundException e) {
@@ -27,10 +27,9 @@ public class DataFunction {
     public ArrayList<String> readDataByLines(String path, int index) throws IOException {
         String line = "";
         ArrayList<String> dataValues = new ArrayList<>();
-        FileReader fileread;
         try {
             line = Files.readAllLines(Paths.get(path)).get(index);
-            Collections.addAll(dataValues, line.split(";"));
+            Collections.addAll(dataValues, line.split(","));
         }catch (Exception e) {
             e.printStackTrace();
         }
