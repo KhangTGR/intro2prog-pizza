@@ -30,6 +30,8 @@ public void createNewAccount(Customer customer) throws IOException {
         BufferedWriter bf = new BufferedWriter(fileWriter);
         PrintWriter pw = new PrintWriter(bf);
         pw.println(generation.generateID(this.path) + "," + customer.getFullName().trim() + "," + customer.getUsername() + "," + customer.getPassword() + "," + customer.getPhoneNumber());
+        pw.flush();
+        pw.close();
 
     }catch (Exception e) {
         e.printStackTrace();
