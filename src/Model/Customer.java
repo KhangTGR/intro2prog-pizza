@@ -2,62 +2,56 @@ package Model;
 
 public class Customer {
     private String fullName;
-    private String userName;
-    private String passWord;
-    private String phoneNum;
+    private String username;
+    private String password;
+    private String phoneNumber;
 
-    public Customer() {
-        this.fullName = null;
-        this.userName = null;
-        this.passWord = null;
-        this.phoneNum = null;
-    }
-    public Customer(String fullName, String userName, String passWord, String phoneNum) {
+    public Customer(String fullName, String username, String password, String phoneNumber) {
         this.fullName = fullName;
-        this.userName = userName;
-        this.passWord = passWord;
-        this.phoneNum = phoneNum;
+        this.username = username;
+        this.password = password;
+        this.phoneNumber = phoneNumber;
     }
 
     public String getFullName() {
         return fullName;
     }
 
-    public String getUserName() {
-        return userName;
-    }
-
-    public String getPassWord() {
-        return passWord;
-    }
-
-    public String getPhoneNum() {
-        return phoneNum;
-    }
-
     public void setFullName(String fullName) {
         this.fullName = fullName;
     }
 
-    public void setUserName(String userName) {
-        this.userName = userName;
+    public String getUsername() {
+        return username;
     }
 
-    public void setPassWord(String passWord) {
-        this.passWord = passWord;
+    public void setUsername(String username) {
+        this.username = username;
     }
 
-    public void setPhoneNum(String phoneNum) {
-        this.phoneNum = phoneNum;
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
     }
 
     @Override
     public String toString() {
         return "Customer{" +
                 "fullName='" + fullName + '\'' +
-                ", userName='" + userName + '\'' +
-                ", passWord='" + passWord + '\'' +
-                ", phoneNum='" + phoneNum + '\'' +
+                ", username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                ", fullName='" + fullName + '\'' +
                 '}';
     }
 }
