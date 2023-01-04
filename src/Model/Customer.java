@@ -51,7 +51,7 @@ public class Customer {
                 "fullName='" + fullName + '\'' +
                 ", username='" + username + '\'' +
                 ", password='" + password + '\'' +
-                ", fullName='" + fullName + '\'' +
+                ", phoneNumber='" + phoneNumber + '\'' +
                 '}';
     }
 }
