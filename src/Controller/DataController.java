@@ -6,7 +6,7 @@ import java.nio.file.Paths;
 import java.util.*;
 
 public class DataController {
-    public ArrayList<String> readData(String filepath, int index)  {
+    public ArrayList<String> readData(String filepath, int index) throws IOException {
         ArrayList<String> dataValues = new ArrayList<>();
         String line;
         FileReader fileReader;
@@ -15,22 +15,18 @@ public class DataController {
         } catch (FileNotFoundException f) {
             throw new RuntimeException(f);
         }
-            try {
-                BufferedReader reader = new BufferedReader(fileReader);
-                while (true) {
-                    line = reader.readLine();
-                    if (line != null) {
-                        dataValues.add(line.split(";")[index]);
-                    } else {
-                        break;
-                    }
-                }
-            }catch (IOException e) {
-                e.printStackTrace();
+        try {
+            BufferedReader br = new BufferedReader(fileReader);
+            while ((line = br.readLine()) != null) {
+                dataValues.add(line.split(";")[index]);
             }
-
-        return dataValues;
+        }catch (IOException e) {
+            e.printStackTrace();
         }
+        return dataValues;
+    }
+
+
     public ArrayList<String> readDataByLines(String path, int index)   {
         String line;
         ArrayList<String> dataValues = new ArrayList<>();
@@ -44,3 +40,4 @@ public class DataController {
     }
 
 }
+

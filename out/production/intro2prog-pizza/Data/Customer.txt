@@ -1,5 +1,3 @@
 ID;fullname;username;password;phonenumber;rank
-
-2;Nguyen Huynh Quang;QUang2909;Bebong123;0914173304;Regular
-3;Nguyen Huynh Quang;QUang;123456;123234;Regular
-4;wdsdw;23123;213sdw;23123;Regular
+1;Nguyen Huynh Quang;Quang2909;Bebong123;0914173304;Regular
+2;Nguyen Trong Khang;Khang;123456;09234567;Regular

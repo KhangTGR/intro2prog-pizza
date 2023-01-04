@@ -11,11 +11,11 @@ import java.util.HashMap;
 import java.util.Scanner;
 
 public class LoginController {
-    public HashMap<String, String> passMap(String filepath) {
+    public HashMap<String, String> passMap(String filepath) throws IOException{
         DataController datacontrol = new DataController();
         HashMap<String, String> passIndex = new HashMap<>();
-        ArrayList<String> userNameList = datacontrol.readData(filepath, 0);
-        ArrayList<String> passWordList = datacontrol.readData(filepath, 1);
+        ArrayList<String> userNameList = datacontrol.readData(filepath, 2);
+        ArrayList<String> passWordList = datacontrol.readData(filepath, 3);
         for(int i = 0; i < userNameList.size(); i++) {
             passIndex.put(userNameList.get(i), passWordList.get(i));
         }

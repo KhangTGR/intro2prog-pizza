@@ -13,7 +13,7 @@ public class RegisterController {
     private boolean existUser = false;
 public boolean checkExistUser(String username) throws IOException {
         DataController data = new DataController();
-        ArrayList<String> users = data.readData(this.path, 0);
+        ArrayList<String> users = data.readData(this.path, 2);
         for(String s: users) {
             if (username.equals(s)) {
                 existUser = true;
