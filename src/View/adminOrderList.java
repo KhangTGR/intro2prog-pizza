@@ -78,6 +78,27 @@ public class adminOrderList {
 
     public void changeOrderStatus() {
         String route = "src/Data/Orders.txt";
+        displayData dd = new displayData();
+        dd.displayGoods();
+
+        Scanner scan = new Scanner(System.in);
+        System.out.println(" Please enter an order that you want to edit status of it");
+        String orderId = scan.nextLine();
+        while (true) {
+            if(checkExistedId(route,0, orderId)) {
+                break;
+            } else {
+                System.out.println("This Order id is not exist . Please choose another orders :");
+                orderId = scan.nextLine();
+            }
+        }
+
+        System.out.println("Please typing your new status :");
+        String status = scan.nextLine();
+        changeModifier change = new changeModifier();
+        change.changeOrderStatus();
+        dd.displayGoods();
+        displayOrderMenu();
 
 
     }
