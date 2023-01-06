@@ -10,7 +10,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 
 public class GenerateID {
-    public long generateID(String filepath) throws IOException {
+    public long idIncrementor(String filepath) throws IOException {
         long count;
         Path file = Paths.get(filepath);
         count = Files.lines(file).count();

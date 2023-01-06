@@ -1,3 +1,4 @@
 ID;fullname;username;password;phonenumber;rank
 1;Nguyen Huynh Quang;Quang2909;Bebong123;0914173304;Regular
 2;Nguyen Trong Khang;Khang;123456;09234567;Regular
+3;Nguyen Huynh Quang;Noooo;123456789;0927465178;Regular

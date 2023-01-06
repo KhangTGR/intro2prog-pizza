@@ -28,7 +28,7 @@ public void createNewAccount(Customer customer) throws ArrayIndexOutOfBoundsExce
         FileWriter fileWriter = new FileWriter(this.path, true);
         BufferedWriter bf = new BufferedWriter(fileWriter);
         PrintWriter pw = new PrintWriter(bf);
-        pw.println(generation.generateID(this.path) + ";" + customer.getFullName().trim() + ";" + customer.getUsername() + ";" + customer.getPassword() + ";" + customer.getPhoneNumber() + ";" + "Regular");
+        pw.println(generation.idIncrementor(this.path) + ";" + customer.getFullName().trim() + ";" + customer.getUsername() + ";" + customer.getPassword() + ";" + customer.getPhoneNumber() + ";" + "Regular");
         pw.flush();
         pw.close();
 
