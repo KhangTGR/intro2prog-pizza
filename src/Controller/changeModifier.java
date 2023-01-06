@@ -15,7 +15,6 @@ public class changeModifier {
             try {
                 String productId;
                 double productPrice;
-                String productCurrency;
                 String productCategory;
                 String productTitle;
 
@@ -31,20 +30,20 @@ public class changeModifier {
                 scan.useDelimiter("[;\n]");
                 scan.nextLine();
 
-                pwriter.println("id;title;price;currency;category");
+                pwriter.println("id;title;price;category");
                 while(scan.hasNext()) {
                     productId = scan.next();
                     productTitle = scan.next();
                     productCategory = scan.next();
                     productPrice = scan.nextDouble();
-                    productCurrency = scan.next();
+
 
                     if(productId.equals(id)) {
-                        pwriter.println(productId + ";" + product.getTitle() + ";" + product.getCategory()+ ";" +
-                                product.getPrice() + product.getCurrency());
+                        pwriter.println(productId + ";" + product.getTitle() + ";" + product.getPrice()+ ";" +
+                                product.getCategory());
                     } else {
 
-                        pwriter.println(productId + ";" + productTitle + productCategory + productPrice + productCurrency);
+                        pwriter.println(productId + ";" + productTitle + productPrice + productCategory);
                     }
                 }
 
@@ -64,6 +63,13 @@ public class changeModifier {
 
 
             }
+
+    }
+
+    public void changeOrderStatus() {
+        String route = "src/Data/Orders.txt";
+
+
 
     }
 
