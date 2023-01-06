@@ -5,21 +5,21 @@ public class Product {
     private String title;
     private double price;
     private String category;
-    private String currency;
+
 
     public Product() {
 
         this.category = null;
         this.title = null;
         this.price = 0;
-        this.currency = null;
+
     }
 
-    public Product (String title, double price, String category, String currency) {
+    public Product (String title, double price, String category) {
         this.title = title;
         this.price = price;
         this.category = category;
-        this.currency = currency;
+
 
     }
 
@@ -41,9 +41,7 @@ public class Product {
 
 
 
-    public String getCurrency() {
-        return currency;
-    }
+
 
 
 
@@ -53,7 +51,6 @@ public class Product {
             "title='" + title + '\'' +
             ", price=" + price +
             ", category='" + category + '\'' +
-            ", currency='" + currency + '\'' +
             '}';
 
 

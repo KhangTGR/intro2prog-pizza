@@ -34,7 +34,7 @@ public class productModifier {
             BufferedWriter bwriter = new BufferedWriter(fwrite);
             PrintWriter pwriter = new PrintWriter(bwriter);
             pwriter.println ("ITM" + idAdditioner.idAdditioner(this.route) + ";" + goods.getTitle().trim() +
-                    goods.getCategory() + ";" + goods.getPrice() + ";"+ goods.getCurrency());
+                    goods.getPrice() + ";" + goods.getCategory());
 
 
             pwriter.close();
