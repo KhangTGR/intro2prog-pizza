@@ -12,10 +12,10 @@ import java.util.ArrayList;
 public class OrderController  {
     String customerID = readLogIn();
     String customerRank = readRank();
-    public void addOrderCSV(OrderList orderList) {
+    public void addOrdertxt(OrderList orderList) {
         GenerateID idCreator = new GenerateID();
         try {
-            String orderPath = "src/Database/Order.csv";
+            String orderPath = "src/Database/Order.txt";
             long Id = idCreator.idIncrementor(orderPath);
             FileWriter filew = new FileWriter(orderPath, true);
             BufferedWriter bw = new BufferedWriter(filew);
@@ -77,13 +77,13 @@ public class OrderController  {
         GenerateID lineCount = new GenerateID();
         DataController dc = new DataController();
         try {
-            ArrayList<String> customerIdList = dc.readData("src/DataBase/Order.csv",6);
-            ArrayList<String> customerExpense = dc.readData("src/DataBase/Order.csv",5);
-            ArrayList<String> customerOrderId = dc.readData("src/DataBase/Order.csv",0);
+            ArrayList<String> customerIdList = dc.readData("src/Data/Order.txt",6);
+            ArrayList<String> customerExpense = dc.readData("src/Data/Order.txt",5);
+            ArrayList<String> customerOrderId = dc.readData("src/Data/Order.txt",0);
             String customerId = readLogIn();
-            for (int i = 0; i < lineCount.idIncrementor("src/DataBase/Order.csv"); i++) {
+            for (int i = 0; i < lineCount.idIncrementor("src/Data/Order.txt"); i++) {
                 if(customerIdList.get(i).equals(customerId)){
-                    if(i == lineCount.idIncrementor("src/DataBase/Order.csv") -1){
+                    if(i == lineCount.idIncrementor("src/Data/Order.txt") -1){
                         totalUse += Double.parseDouble(customerExpense.get(i));
                         break;
                     }

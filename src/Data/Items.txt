@@ -1,0 +1,1001 @@
+id,name,price,currency,category
+1,Muffin Mix - Oatmeal,99,Dollar,Kids
+2,Spring Roll Veg Mini,45,Dollar,Home
+3,Saskatoon Berries - Frozen,91,Dong,Music
+4,"Chicken - Leg, Boneless",100,Afghani,Home
+5,Tomato - Plum With Basil,85,Euro,Outdoors
+6,"Beef - Ox Tail, Frozen",12,Euro,Kids
+7,Salt And Pepper Mix - Black,31,Ruble,Music
+8,Cheese - Mozzarella,58,Euro,Kids
+9,Bread - Italian Corn Meal Poly,60,Sol,Baby
+10,Bread - Triangle White,81,Euro,Kids
+11,"Capon - Breast, Double, Wing On",27,Rupiah,Computers
+12,Yoplait Drink,15,Ruble,Kids
+13,Veal - Provimi Inside,65,Franc,Shoes
+14,Sugar - Crumb,98,Dalasi,Grocery
+15,Pecan Raisin - Tarts,19,Dinar,Grocery
+16,Bread - Pain Au Liat X12,70,Baht,Music
+17,Dr. Pepper - 355ml,65,Yuan Renminbi,Sports
+18,Muffin Chocolate Individual Wrap,61,Yuan Renminbi,Outdoors
+19,"Lobster - Tail, 3 - 4 Oz",27,Ruble,Home
+20,Muffin Mix - Blueberry,72,Yuan Renminbi,Toys
+21,Lamb - Loin Chops,77,Ringgit,Shoes
+22,Soup Knorr Chili With Beans,22,Boliviano,Sports
+23,"Wine - Cahors Ac 2000, Clos",77,Shekel,Health
+24,Veal - Leg,40,Euro,Industrial
+25,Bagelers - Cinn / Brown Sugar,23,Yuan Renminbi,Shoes
+26,Straws - Cocktale,94,Yen,Books
+27,Gelatine Powder,22,Zloty,Baby
+28,Pastry - Banana Tea Loaf,12,Ruble,Health
+29,"Veal - Insides, Grains",50,Real,Garden
+30,Horseradish Root,75,Dollar,Beauty
+31,Chicken Giblets,40,Ruble,Computers
+32,Trueblue - Blueberry 12x473ml,13,Yuan Renminbi,Industrial
+33,Bread - 10 Grain,40,Peso,Baby
+34,Energy Drink Bawls,73,Peso,Games
+35,"Soup - Knorr, Veg / Beef",93,Rupiah,Shoes
+36,"Vodka - Hot, Lnferno",39,Real,Electronics
+37,Savory,23,Boliviano,Automotive
+38,Samosa - Veg,94,Rupiah,Tools
+39,Rice Paper,78,Euro,Baby
+40,Water - Evian 355 Ml,95,Euro,Jewelry
+41,Rolled Oats,74,Rial,Garden
+42,"Shrimp - 16/20, Iqf, Shell On",99,Yuan Renminbi,Sports
+43,Wine - Cave Springs Dry Riesling,44,Yuan Renminbi,Jewelry
+44,Wine - Vineland Estate Semi - Dry,100,Tugrik,Clothing
+45,Swiss Chard,48,Real,Music
+46,Ice Cream - Turtles Stick Bar,80,Birr,Baby
+47,Crackers - Trio,86,Lempira,Jewelry
+48,Ham - Virginia,76,Dollar,Sports
+49,Muffin Carrot - Individual,62,Euro,Beauty
+50,Buffalo - Striploin,93,Dollar,Kids
+51,Trueblue - Blueberry Cranberry,95,Peso,Shoes
+52,Coffee - Flavoured,73,Euro,Computers
+53,Shrimp - 100 / 200 Cold Water,64,Dollar,Outdoors
+54,Wasabi Paste,65,Peso,Clothing
+55,"Soup - Campbells, Creamy",21,Litas,Sports
+56,Wine - Fume Blanc Fetzer,75,Dollar,Industrial
+57,"Cherries - Maraschino,jar",71,Yuan Renminbi,Grocery
+58,Bread - 10 Grain Parisian,47,Real,Clothing
+59,Extract - Almond,83,Dong,Books
+60,"Bread - Rolls, Rye",17,Rupiah,Computers
+61,Eggplant Oriental,98,Lek,Games
+62,"Beef - Roasted, Cooked",80,Franc,Garden
+63,Wine - Crozes Hermitage E.,37,Peso,Health
+64,"Juice - Apple, 1.36l",23,Peso,Grocery
+65,"Liqueur Banana, Ramazzotti",68,Peso,Jewelry
+66,Chicken - Tenderloin,43,Zloty,Electronics
+67,Drambuie,70,Euro,Books
+68,"Bread - Pumpernickle, Rounds",55,Ruble,Kids
+69,"Sauce - Soya, Dark",91,Naira,Baby
+70,Knife Plastic - White,58,Yen,Toys
+71,Chick Peas - Dried,90,Hryvnia,Tools
+72,"Wine - Magnotta - Red, Baco",29,Euro,Health
+73,Sterno - Chafing Dish Fuel,1,Krona,Jewelry
+74,Petit Baguette,87,Yuan Renminbi,Toys
+75,Wine - Cabernet Sauvignon,93,Peso,Home
+76,Sauce - Caesar Dressing,72,Yuan Renminbi,Baby
+77,Sobe - Orange Carrot,31,Kyat,Shoes
+78,Olives - Kalamata,50,Yuan Renminbi,Beauty
+79,Appetizer - Cheese Bites,93,Dinar,Games
+80,"Wine - White, Pelee Island",30,Rupiah,Baby
+81,Sage Ground Wiberg,56,Peso,Electronics
+82,"Cheese - Havarti, Salsa",85,Koruna,Kids
+83,Wine - Prosecco Valdobienne,26,Yuan Renminbi,Shoes
+84,Tea - Apple Green Tea,61,Ruble,Outdoors
+85,"Cherries - Maraschino,jar",28,Rupiah,Home
+86,Pork Loin Bine - In Frenched,57,Yen,Movies
+87,Tomatoes - Cherry,18,Yuan Renminbi,Clothing
+88,Red Pepper Paste,69,Euro,Shoes
+89,"Tart Shells - Sweet, 3",62,Sol,Shoes
+90,"Lamb - Leg, Boneless",57,Zloty,Industrial
+91,Shrimp - Black Tiger 26/30,48,Franc,Movies
+92,Beef - Top Butt,9,Yuan Renminbi,Electronics
+93,Ecolab - Power Fusion,41,Ruble,Automotive
+94,Cookies - Englishbay Oatmeal,40,Krona,Industrial
+95,Vaccum Bag - 14x20,51,Dirham,Tools
+96,Oil - Canola,24,Franc,Garden
+97,"Beef - Ground, Extra Lean, Fresh",73,Rupiah,Home
+98,Yeast Dry - Fleischman,59,Peso,Games
+99,Olives - Kalamata,34,Yuan Renminbi,Grocery
+100,Nantucket Orange Juice,37,Dollar,Beauty
+101,Chips Potato All Dressed - 43g,38,Yuan Renminbi,Garden
+102,Grapes - Black,65,Shilling,Outdoors
+103,"Wine - Red, Marechal Foch",45,Zloty,Beauty
+104,Boogies,82,Hryvnia,Health
+105,"Soup - Canadian Pea, Dry Mix",61,Ruble,Clothing
+106,Cheese Cheddar Processed,57,Euro,Movies
+107,Beef - Ground Medium,10,Rupiah,Health
+108,Juice - Propel Sport,23,Rupiah,Home
+109,Container - Clear 16 Oz,86,Dollar,Clothing
+110,Vol Au Vents,67,Ruble,Grocery
+111,Wine - Bouchard La Vignee Pinot,38,Yuan Renminbi,Home
+112,Mushroom - Morel Frozen,5,Shekel,Sports
+113,Bacardi Breezer - Tropical,35,Franc,Health
+114,Plate Foam Laminated 9in Blk,55,Rupiah,Electronics
+115,"Wine - Saint - Bris 2002, Sauv",16,Peso,Movies
+116,Skirt - 24 Foot,13,Rand,Garden
+117,Rice Paper,43,Afghani,Home
+118,Pear - Asian,46,Hryvnia,Toys
+119,"Pork - Loin, Boneless",5,Birr,Electronics
+120,Lemon Tarts,55,Yuan Renminbi,Clothing
+121,Spring Roll Veg Mini,40,Koruna,Games
+122,Lambcasing,24,Peso,Automotive
+123,Jolt Cola,49,Dollar,Garden
+124,Miso Paste White,2,Ruble,Shoes
+125,Peas - Frozen,40,Yen,Computers
+126,Sprouts - China Rose,2,Rupiah,Clothing
+127,Beef Tenderloin Aaa,52,Manat,Movies
+128,"Pasta - Fettuccine, Egg, Fresh",40,Dollar,Books
+129,Wine - Periguita Fonseca,24,Naira,Baby
+130,Banana - Leaves,13,Euro,Grocery
+131,Capicola - Hot,73,Euro,Kids
+132,Cheese - Brie Roitelet,96,Quetzal,Music
+133,Cheese - Oka,80,Tugrik,Outdoors
+134,Jerusalem Artichoke,86,Real,Grocery
+135,Pastry - Plain Baked Croissant,9,Rupiah,Garden
+136,"Glass - Wine, Plastic, Clear 5 Oz",34,Euro,Electronics
+137,Potatoes - Idaho 80 Count,45,Yuan Renminbi,Garden
+138,Pepper - Pablano,46,Peso,Jewelry
+139,Cheese - La Sauvagine,54,Shilling,Automotive
+140,Pork - Belly Fresh,37,Yuan Renminbi,Sports
+141,Melon - Cantaloupe,21,Rupiah,Garden
+142,Huck White Towels,13,Dinar,Electronics
+143,Ice Cream - Vanilla,53,Kip,Shoes
+144,Appetizer - Smoked Salmon / Dill,39,Colon,Sports
+145,Wine - Baron De Rothschild,9,Yuan Renminbi,Toys
+146,Pork - Inside,3,Yuan Renminbi,Computers
+147,"Sauce - Bernaise, Mix",10,Euro,Toys
+148,Table Cloth 72x144 White,21,Yuan Renminbi,Games
+149,Tomato Puree,33,Yen,Clothing
+150,Chinese Foods - Plain Fried Rice,67,Real,Clothing
+151,Chocolate - White,3,Ringgit,Industrial
+152,Fenngreek Seed,97,Yuan Renminbi,Garden
+153,"Tart Shells - Savory, 2",85,Real,Baby
+154,Garlic - Elephant,76,Real,Sports
+155,Butter Ripple - Phillips,39,Zloty,Movies
+156,Tea - Herbal - 6 Asst,36,Zloty,Games
+157,Soap - Hand Soap,11,Yuan Renminbi,Electronics
+158,Glass Clear 8 Oz,8,Lek,Books
+159,Pepper - Pablano,13,Dollar,Clothing
+160,"Bread - Bagels, Plain",44,Rupiah,Baby
+161,Lobster - Live,91,Bolivar,Beauty
+162,French Pastry - Mini Chocolate,30,Ruble,Outdoors
+163,Broom - Corn,93,Euro,Sports
+164,"Nut - Hazelnut, Ground, Natural",60,Pula,Grocery
+165,"Lamb - Whole, Fresh",66,Euro,Beauty
+166,"Olives - Green, Pitted",24,Hryvnia,Shoes
+167,"Soup - Beef, Base Mix",39,Rupiah,Shoes
+168,Cabbage - Savoy,84,Peso,Clothing
+169,Spic And Span All Purpose,71,Dollar,Garden
+170,Beef - Short Loin,81,Real,Games
+171,Coffee Cup 16oz Foam,4,Riels,Beauty
+172,"Brownies - Two Bite, Chocolate",96,Tenge,Industrial
+173,Lotus Rootlets - Canned,87,Hryvnia,Automotive
+174,Squid - U - 10 Thailand,35,Peso,Jewelry
+175,Chocolate - Unsweetened,76,Rupiah,Music
+176,Ham - Cooked Bayonne Tinned,68,Rupiah,Kids
+177,Cheese - Victor Et Berthold,62,Peso,Outdoors
+178,Icecream Bar - Del Monte,35,Rupiah,Industrial
+179,Wine - Cotes Du Rhone Parallele,45,Pound,Beauty
+180,Beer - Steamwhistle,4,Gourde,Electronics
+181,Pepper - Green Thai,62,Rupiah,Movies
+182,Soup - Campbells Beef Noodle,37,Ruble,Automotive
+183,Cumin - Whole,4,Euro,Health
+184,"Vinegar - Balsamic, White",94,Pound,Tools
+185,"Ecolab - Orange Frc, Cleaner",49,Yuan Renminbi,Kids
+186,Mix - Cappucino Cocktail,45,Peso,Sports
+187,Bar Energy Chocchip,19,Ruble,Games
+188,Cheese Cloth No 100,23,Yuan Renminbi,Jewelry
+189,"Soup - Knorr, Classic Can. Chili",45,Yuan Renminbi,Toys
+190,Cheese - Swiss Sliced,50,Real,Computers
+191,Soup - Verve - Chipotle Chicken,38,Denar,Games
+192,Lighter - Bbq,45,Real,Sports
+193,Tea - Vanilla Chai,86,Real,Automotive
+194,Pate Pans Yellow,93,Peso,Home
+195,Chickensplit Half,33,Yuan Renminbi,Kids
+196,Cauliflower,28,Real,Grocery
+197,Spice - Montreal Steak Spice,79,Rupiah,Clothing
+198,Buffalo - Striploin,49,Rupiah,Books
+199,Sugar - Invert,13,Ruble,Electronics
+200,Tomatoes - Roma,16,Peso,Grocery
+201,"Beef - Rib Roast, Capless",98,Peso,Jewelry
+202,Buffalo - Short Rib Fresh,17,Euro,Beauty
+203,Artichoke - Fresh,81,Naira,Jewelry
+204,Hagen Daza - Dk Choocolate,78,Franc,Toys
+205,Lettuce - Treviso,69,Yuan Renminbi,Shoes
+206,Sprouts - Alfalfa,21,Hryvnia,Beauty
+207,"Jam - Strawberry, 20 Ml Jar",79,Euro,Home
+208,Coffee - Egg Nog Capuccino,1,Boliviano,Home
+209,Fondant - Icing,78,Koruna,Electronics
+210,"Cod - Salted, Boneless",72,Dollar,Clothing
+211,Shrimp - Black Tiger 13/15,55,Zloty,Sports
+212,Icecream - Dstk Cml And Fdg,89,Yuan Renminbi,Jewelry
+213,"Soup - Knorr, Chicken Gumbo",91,Rupiah,Shoes
+214,Olive - Spread Tapenade,77,Real,Industrial
+215,Mousse - Mango,84,Ruble,Clothing
+216,Plums - Red,95,Euro,Industrial
+217,Syrup - Pancake,50,Krone,Clothing
+218,Garlic - Elephant,34,Rupiah,Home
+219,Green Scrubbie Pad H.duty,65,Lek,Grocery
+220,Beef - Striploin,10,Ruble,Baby
+221,Cookies - Englishbay Wht,51,Taka,Health
+222,Bread - Raisin Walnut Pull,22,Rupee,Automotive
+223,Sobe - Orange Carrot,64,Leone,Health
+224,Tea - Honey Green Tea,80,Rupiah,Computers
+225,Cardamon Seed / Pod,45,Kuna,Toys
+226,"Zucchini - Mini, Green",89,Naira,Jewelry
+227,"Coke - Diet, 355 Ml",4,Dollar,Home
+228,Chicken - Whole,2,Euro,Kids
+229,"Bread - Dark Rye, Loaf",99,Sol,Beauty
+230,Wine - Casillero Deldiablo,21,Euro,Grocery
+231,Beef - Ground Medium,63,Rupiah,Automotive
+232,Salt - Sea,59,Pound,Outdoors
+233,Pear - Prickly,49,Euro,Books
+234,Sauce - Hp,63,Rupiah,Beauty
+235,Soap - Mr.clean Floor Soap,88,Koruna,Beauty
+236,Pepper - Scotch Bonnet,84,Rial,Sports
+237,"Pork - Bacon, Sliced",97,Rand,Health
+238,Wine - Vouvray Cuvee Domaine,41,Zloty,Garden
+239,Beer - Heinekin,93,Euro,Books
+240,Juice - Ocean Spray Kiwi,72,Peso,Music
+241,Bouillion - Fish,81,Rupiah,Garden
+242,Cheese - Gouda,60,Yuan Renminbi,Beauty
+243,Table Cloth 54x54 White,44,Zloty,Automotive
+244,Mace Ground,75,Euro,Games
+245,Cocoa Powder - Natural,23,Rupiah,Automotive
+246,"Crab - Dungeness, Whole",83,Peso,Electronics
+247,"Bread - White, Unsliced",78,Baht,Home
+248,Fennel - Seeds,44,Naira,Computers
+249,Oven Mitts 17 Inch,93,Yuan Renminbi,Electronics
+250,Mikes Hard Lemonade,60,Zloty,Garden
+251,Sauce - Soy Low Sodium - 3.87l,10,Rupiah,Books
+252,Avocado,73,Peso,Outdoors
+253,"Soup - Knorr, French Onion",78,Peso,Movies
+254,Icecream - Dstk Super Cone,15,Euro,Kids
+255,Latex Rubber Gloves Size 9,82,Dollar,Beauty
+256,Smoked Tongue,50,Rupiah,Movies
+257,Banana - Green,41,Hryvnia,Movies
+258,"Beef - Bones, Cut - Up",86,Ruble,Grocery
+259,"Coke - Classic, 355 Ml",42,Peso,Music
+260,"Sugar - Sweet N Low, Individual",52,Rupiah,Movies
+261,Spice - Paprika,92,Dinar,Health
+262,Bar Bran Honey Nut,36,Ruble,Grocery
+263,Lumpfish Black,54,Dollar,Computers
+264,Sausage - Andouille,99,Naira,Shoes
+265,Glove - Cutting,84,Euro,Games
+266,Pimento - Canned,48,Hryvnia,Beauty
+267,V8 - Berry Blend,96,Dollar,Outdoors
+268,Milk - Chocolate 500ml,23,Euro,Clothing
+269,Sauce - Demi Glace,76,Koruna,Grocery
+270,Coffee Cup 12oz 5342cd,40,Euro,Outdoors
+271,Wood Chips - Regular,69,Ruble,Industrial
+272,Bay Leaf Fresh,67,Yen,Books
+273,Lotus Root,1,Krona,Shoes
+274,The Pop Shoppe - Cream Soda,4,Dollar,Grocery
+275,"Wine - Red, Cabernet Sauvignon",36,Ruble,Grocery
+276,Bagel - Ched Chs Presliced,78,Pound,Clothing
+277,Tea Peppermint,53,Dollar,Tools
+278,Croissants Thaw And Serve,30,Pound,Automotive
+279,Lotus Rootlets - Canned,60,Sol,Jewelry
+280,"Wine - White, Riesling, Henry Of",74,Dollar,Beauty
+281,Cabbage Roll,78,Franc,Industrial
+282,Wild Boar - Tenderloin,82,Yuan Renminbi,Home
+283,Water - Spring 1.5lit,65,Tenge,Health
+284,Ecolab Silver Fusion,8,Rupiah,Movies
+285,Sauce - Caesar Dressing,45,Pula,Sports
+286,Pastry - Trippleberry Muffin - Mini,16,Yuan Renminbi,Tools
+287,Breakfast Quesadillas,46,Peso,Movies
+288,"7up Diet, 355 Ml",37,Rupiah,Baby
+289,Wine - Chablis 2003 Champs,5,Rupiah,Computers
+290,Glucose,93,Yuan Renminbi,Jewelry
+291,Beef - Bresaola,87,Rupiah,Grocery
+292,Canada Dry,3,Peso,Music
+293,Potatoes - Mini White 3 Oz,78,Kwacha,Shoes
+294,Ice Cream Bar - Rolo Cone,82,Real,Toys
+295,Sauce - Salsa,49,Ariary,Health
+296,Anisette - Mcguiness,5,Koruna,Industrial
+297,Anchovy In Oil,71,Real,Industrial
+298,Curry Powder Madras,4,Dinar,Music
+299,Wine - Chenin Blanc K.w.v.,74,Ruble,Garden
+300,Cardamon Ground,21,Peso,Baby
+301,Compound - Pear,40,Shilling,Kids
+302,Venison - Liver,26,Balboa,Computers
+303,Sugar - Crumb,29,Somoni,Clothing
+304,"Rum - Dark, Bacardi, Black",32,Dollar,Automotive
+305,Sauce - Chili,39,Real,Toys
+306,Swiss Chard - Red,79,Yuan Renminbi,Shoes
+307,Mustard - Pommery,63,Yuan Renminbi,Health
+308,Soup - Campbells Bean Medley,35,Yuan Renminbi,Sports
+309,Tea - Jasmin Green,55,Yuan Renminbi,Computers
+310,Wine - Muscadet Sur Lie,66,Real,Garden
+311,"Hickory Smoke, Liquid",87,Ruble,Clothing
+312,Corn Syrup,49,Dollar,Shoes
+313,"Pork - Loin, Boneless",96,Pound,Baby
+314,Bread Roll Foccacia,39,Hryvnia,Movies
+315,Island Oasis - Sweet And Sour Mix,91,Zloty,Grocery
+316,External Supplier,87,Zloty,Electronics
+317,Squid - Breaded,81,Rial,Tools
+318,Plasticknivesblack,40,Euro,Grocery
+319,Grouper - Fresh,64,Rupee,Computers
+320,Rice Wine - Aji Mirin,78,Rupiah,Electronics
+321,Beer - Blue,78,Dollar,Home
+322,"Chicken - Breast, 5 - 7 Oz",75,Ruble,Games
+323,Melon - Cantaloupe,2,Euro,Outdoors
+324,Papayas,18,Peso,Industrial
+325,Beans - Fava Fresh,15,Euro,Automotive
+326,Energy Drink - Franks Pineapple,6,Zloty,Music
+327,"Tomatoes - Vine Ripe, Red",5,Hryvnia,Automotive
+328,Bread - White Epi Baguette,89,Peso,Music
+329,Aspic - Amber,24,Zloty,Beauty
+330,Bacon Strip Precooked,75,Yuan Renminbi,Industrial
+331,"Liners - Banana, Paper",73,Yuan Renminbi,Games
+332,Thyme - Dried,55,Sol,Games
+333,Ice Cream Bar - Hagen Daz,63,Krona,Games
+334,Beef Ground Medium,68,Ruble,Electronics
+335,Wine - Saint Emilion Calvet,77,Peso,Home
+336,Table Cloth 54x72 White,75,Peso,Games
+337,Table Cloth 81x81 White,13,Rupiah,Outdoors
+338,Onions Granulated,82,Ruble,Grocery
+339,"Wine - Niagara,vqa Reisling",39,Yuan Renminbi,Outdoors
+340,The Pop Shoppe - Cream Soda,15,Yuan Renminbi,Automotive
+341,Bread - White Mini Epi,86,Yuan Renminbi,Jewelry
+342,Soup - Campbells Pasta Fagioli,14,Real,Shoes
+343,Onion Powder,31,Ringgit,Toys
+344,Ecolab - Mikroklene 4/4 L,92,Yen,Home
+345,Cleaner - Lime Away,45,Euro,Clothing
+346,Venison - Liver,46,Yuan Renminbi,Beauty
+347,"Juice - Apple, 341 Ml",69,Ruble,Outdoors
+348,Pepper - Cayenne,74,Baht,Kids
+349,Apricots Fresh,22,Real,Shoes
+350,"Wine - White, French Cross",39,Krona,Books
+351,Cheese - Camembert,98,Rupiah,Kids
+352,"Red Snapper - Fresh, Whole",57,Som,Books
+353,Wine - Beringer Founders Estate,34,Rial,Movies
+354,Banana Turning,2,Franc,Jewelry
+355,Apple - Custard,93,Yuan Renminbi,Beauty
+356,Cake - Lemon Chiffon,21,Boliviano,Home
+357,"Oil - Olive, Extra Virgin",56,Yuan Renminbi,Baby
+358,Anchovy Paste - 56 G Tube,61,Peso,Movies
+359,Peach - Halves,95,Naira,Computers
+360,Jerusalem Artichoke,54,Peso,Music
+361,"Bread - Pumpernickle, Rounds",27,Litas,Sports
+362,Spice - Montreal Steak Spice,42,Yuan Renminbi,Automotive
+363,Rice - Long Grain,82,Koruna,Games
+364,Longos - Lasagna Veg,15,Yuan Renminbi,Electronics
+365,Basil - Fresh,16,Euro,Sports
+366,Mousse - Mango,39,Dollar,Kids
+367,Basil - Fresh,78,Rupiah,Beauty
+368,Island Oasis - Cappucino Mix,35,Yuan Renminbi,Electronics
+369,"Wine - White, Ej Gallo",26,Rupiah,Beauty
+370,Skirt - 24 Foot,57,Peso,Automotive
+371,"Pasta - Fusili, Dry",70,Yuan Renminbi,Toys
+372,Pumpkin - Seed,48,Yuan Renminbi,Automotive
+373,Black Currants,4,Rupiah,Industrial
+374,Cookie Choc,84,Hryvnia,Sports
+375,Trueblue - Blueberry,97,Koruna,Health
+376,Wine - Alsace Riesling Reserve,99,Franc,Beauty
+377,Cheese - Feta,82,Rupiah,Computers
+378,Pastry - Key Limepoppy Seed Tea,79,Yen,Tools
+379,Cookie - Dough Variety,81,Baht,Movies
+380,Rum - Mount Gay Eclipes,1,Shilling,Tools
+381,Cookie Double Choco,58,Yuan Renminbi,Industrial
+382,Wine - Riesling Alsace Ac 2001,92,Manat,Outdoors
+383,Pop - Club Soda Can,8,Euro,Health
+384,Miso - Soy Bean Paste,76,Rupiah,Computers
+385,Pie Shells 10,28,Peso,Baby
+386,"Lid - High Heat, Super Clear",72,Euro,Health
+387,Shrimp - Black Tiger 13/15,12,Peso,Shoes
+388,Chivas Regal - 12 Year Old,75,Ruble,Movies
+389,Sage Derby,99,Ruble,Grocery
+390,Pork - Sausage Casing,24,Rupiah,Beauty
+391,Mangostein,99,Yuan Renminbi,Computers
+392,"Wine - Red, Colio Cabernet",99,Peso,Garden
+393,Gatorade - Lemon Lime,93,Rupiah,Outdoors
+394,Beer - Corona,79,Yuan Renminbi,Tools
+395,Pur Value,76,Ruble,Industrial
+396,Spice - Greek 1 Step,70,Euro,Sports
+397,Fudge - Chocolate Fudge,19,Euro,Outdoors
+398,Scallop - St. Jaques,91,Rupiah,Outdoors
+399,Chicken - Livers,33,Rupiah,Clothing
+400,Sauce - Thousand Island,84,Koruna,Sports
+401,Bagelers - Cinn / Brown,70,Yuan Renminbi,Industrial
+402,Cheese - Brie,15,Euro,Home
+403,Wine - Trimbach Pinot Blanc,75,Ruble,Outdoors
+404,Garam Marsala,61,Yuan Renminbi,Sports
+405,"Shrimp - 16 - 20 Cooked, Peeled",32,Dirham,Games
+406,Mayonnaise - Individual Pkg,92,Dram,Industrial
+407,"Soup - Campbells, Butternut",68,Yuan Renminbi,Music
+408,Danishes - Mini Raspberry,74,Yuan Renminbi,Health
+409,"Crab - Claws, 26 - 30",72,Dollar,Health
+410,Pie Box - Cello Window 2.5,52,Rupiah,Electronics
+411,Sole - Iqf,13,Rand,Games
+412,Spice - Paprika,77,Dollar,Industrial
+413,Juice - Ocean Spray Kiwi,61,Peso,Music
+414,Soup - Tomato Mush. Florentine,52,Rupiah,Industrial
+415,Chocolate Bar - Smarties,69,Yuan Renminbi,Electronics
+416,Dikon,37,Zloty,Home
+417,Cake - Cheese Cake 9 Inch,85,Zloty,Music
+418,Fuji Apples,54,Yuan Renminbi,Shoes
+419,Tamarind Paste,52,Dong,Beauty
+420,Goat - Whole Cut,75,Yuan Renminbi,Computers
+421,Energy Drink - Franks Pineapple,60,Yuan Renminbi,Garden
+422,Tea - English Breakfast,40,Tugrik,Movies
+423,Pastry - Banana Muffin - Mini,74,Yuan Renminbi,Baby
+424,"Bread - Pullman, Sliced",33,Rupiah,Games
+425,"Pasta - Penne Primavera, Single",21,Yuan Renminbi,Music
+426,Soup - Campbells Beef Noodle,12,Peso,Clothing
+427,Duck - Whole,89,Yuan Renminbi,Clothing
+428,Pickles - Gherkins,10,Rupee,Computers
+429,Energy Drink Bawls,97,Yuan Renminbi,Computers
+430,Phyllo Dough,97,Dollar,Beauty
+431,French Pastry - Mini Chocolate,95,Peso,Baby
+432,Pork - Side Ribs,11,Real,Books
+433,Apricots - Halves,29,Bolivar,Garden
+434,Soup - Campbells Chili Veg,50,Peso,Jewelry
+435,"Lamb - Racks, Frenched",25,Zloty,Sports
+436,Oil - Sesame,6,Yuan Renminbi,Automotive
+437,"Stock - Veal, Brown",46,Real,Clothing
+438,"Chicken - Wings, Tip Off",29,Rand,Baby
+439,Caviar - Salmon,68,Rial,Shoes
+440,"Pepper - White, Whole",50,Peso,Books
+441,"Tortillas - Flour, 12",26,Sol,Home
+442,"Nut - Cashews, Whole, Raw",24,Rupiah,Music
+443,Crush - Cream Soda,6,Ruble,Computers
+444,Glaze - Clear,42,Yuan Renminbi,Music
+445,Beets - Mini Golden,41,Dinar,Electronics
+446,"Artichokes - Knobless, White",52,Koruna,Outdoors
+447,Milk - Skim,51,Yuan Renminbi,Sports
+448,"Rosemary - Primerba, Paste",98,Yuan Renminbi,Books
+449,Oil - Peanut,12,Dollar,Toys
+450,Snapple - Iced Tea Peach,11,Lev,Jewelry
+451,Tart - Lemon,59,Yuan Renminbi,Clothing
+452,Chicken Giblets,93,Baht,Beauty
+453,Wine - Saint Emilion Calvet,34,Euro,Outdoors
+454,Wine - Taylors Reserve,72,Real,Movies
+455,Mayonnaise,27,Ruble,Clothing
+456,Tuna - Salad Premix,49,Dirham,Shoes
+457,Duck - Breast,57,Rupiah,Games
+458,"Pasta - Lasagna, Dry",13,Peso,Health
+459,Beef - Cow Feet Split,58,Kuna,Industrial
+460,Pate - Cognac,47,Krona,Baby
+461,Energy Drink,59,Euro,Books
+462,Napkin White,29,Real,Grocery
+463,Currants,70,Koruna,Grocery
+464,"Water - Mineral, Natural",84,Yuan Renminbi,Toys
+465,Puree - Kiwi,70,Euro,Health
+466,Sauce - Cranberry,17,Quetzal,Kids
+467,Kellogs Raisan Bran Bars,72,Peso,Music
+468,Carrots - Jumbo,51,Yuan Renminbi,Shoes
+469,Soup Bowl Clear 8oz92008,26,Peso,Baby
+470,Muffin Mix - Oatmeal,29,Ruble,Home
+471,Wine - Magnotta - Cab Sauv,14,Kuna,Kids
+472,Cookies Cereal Nut,2,Ruble,Games
+473,Noodles - Steamed Chow Mein,64,Yuan Renminbi,Clothing
+474,"Squash - Pattypan, Yellow",99,Yuan Renminbi,Games
+475,"Trout - Rainbow, Frozen",27,Peso,Movies
+476,"Napkin - Cocktail,beige 2 - Ply",69,Krone,Health
+477,Crab - Soft Shell,80,Peso,Music
+478,Chicken - Leg / Back Attach,2,Franc,Books
+479,"Orange - Canned, Mandarin",97,Real,Music
+480,Bread - Rye,41,Lev,Clothing
+481,Chicken - Tenderloin,88,Yuan Renminbi,Beauty
+482,Pepper - Jalapeno,31,Rial,Electronics
+483,Tea - Jasmin Green,14,Yuan Renminbi,Jewelry
+484,Wine - Rosso Toscano Igt,72,Yuan Renminbi,Music
+485,"Jam - Marmalade, Orange",53,Real,Jewelry
+486,"Capon - Breast, Wing On",45,Yuan Renminbi,Beauty
+487,Ginger - Ground,7,Yuan Renminbi,Grocery
+488,Cheese - Sheep Milk,77,Tugrik,Electronics
+489,"Sauce - Gravy, Au Jus, Mix",23,Baht,Outdoors
+490,Muffin Batt - Ban Dream Zero,63,Peso,Grocery
+491,"Soup - Clam Chowder, Dry Mix",81,Peso,Grocery
+492,Beef Wellington,83,Rupiah,Baby
+493,Horseradish Root,30,Yuan Renminbi,Jewelry
+494,Lettuce Romaine Chopped,70,Yuan Renminbi,Shoes
+495,"Sugar - Brown, Individual",76,Dollar,Toys
+496,Tuna - Loin,66,Shekel,Jewelry
+497,Vinegar - Raspberry,46,Birr,Sports
+498,Cheese - Asiago,100,Taka,Clothing
+499,Muffin Batt - Choc Chk,20,Real,Baby
+500,Aspic - Amber,53,Yuan Renminbi,Beauty
+501,Butcher Twine 4r,83,Rupee,Jewelry
+502,Veal - Ground,46,Rupiah,Beauty
+503,"Bar Mix - Pina Colada, 355 Ml",70,Pound,Tools
+504,"Stock - Veal, Brown",98,Real,Movies
+505,Cake - Pancake,38,Yen,Kids
+506,Basil - Thai,67,Yuan Renminbi,Beauty
+507,Longos - Penne With Pesto,1,Yuan Renminbi,Jewelry
+508,"Soup - Campbells, Spinach Crm",87,Yuan Renminbi,Electronics
+509,"Fish - Halibut, Cold Smoked",53,Yuan Renminbi,Garden
+510,Pear - Packum,36,Euro,Grocery
+511,"Appetizer - Mini Egg Roll, Shrimp",61,Pound,Toys
+512,Cheese - Mozzarella,16,Euro,Music
+513,V8 Pet,5,Zloty,Kids
+514,"Tart Shells - Sweet, 4",82,Lempira,Toys
+515,Sauce - Thousand Island,44,Rupiah,Grocery
+516,Cheese - Parmesan Cubes,61,Cordoba,Outdoors
+517,Latex Rubber Gloves Size 9,66,Rupiah,Movies
+518,Cornish Hen,68,Rupiah,Electronics
+519,Beets - Golden,81,Kwacha,Games
+520,Muffin Mix - Morning Glory,24,Krona,Books
+521,Banana Turning,83,Ruble,Electronics
+522,Kippers - Smoked,10,Yuan Renminbi,Shoes
+523,"Clams - Littleneck, Whole",21,Euro,Jewelry
+524,"Pork - Ham, Virginia",64,Ruble,Books
+525,Venison - Ground,90,Dollar,Industrial
+526,Lamb - Ground,30,Peso,Movies
+527,Blackberries,49,Ruble,Industrial
+528,Beef - Tenderloin - Aa,61,Manat,Outdoors
+529,"Syrup - Monin, Irish Cream",57,Yuan Renminbi,Industrial
+530,Compound - Orange,8,Yuan Renminbi,Toys
+531,Island Oasis - Banana Daiquiri,80,Zloty,Health
+532,Grapes - Red,62,Rupiah,Baby
+533,Potato - Sweet,44,Yuan Renminbi,Music
+534,Coffee Beans - Chocolate,17,Real,Grocery
+535,Icecream - Dstk Cml And Fdg,64,Real,Home
+536,Muffin Orange Individual,43,Yuan Renminbi,Movies
+537,Beer - Molson Excel,61,Zloty,Music
+538,Wine - Chenin Blanc K.w.v.,99,Dollar,Industrial
+539,"Crush - Grape, 355 Ml",94,Yuan Renminbi,Movies
+540,"Flour - Bran, Red",53,Peso,Electronics
+541,Lid - 3oz Med Rec,42,Yuan Renminbi,Tools
+542,Rice - 7 Grain Blend,7,Dollar,Sports
+543,Longos - Greek Salad,20,Rupiah,Clothing
+544,Parasol Pick Stir Stick,17,Hryvnia,Computers
+545,Cookie Dough - Chocolate Chip,99,Ruble,Health
+546,"Mushroom - Trumpet, Dry",91,Euro,Jewelry
+547,Oven Mitt - 13 Inch,2,Yen,Jewelry
+548,"Syrup - Monin, Swiss Choclate",21,Ringgit,Grocery
+549,Swordfish Loin Portions,62,Euro,Industrial
+550,Wine - Chablis J Moreau Et Fils,88,Yuan Renminbi,Baby
+551,Lambcasing,66,Yuan Renminbi,Kids
+552,Pork Loin Cutlets,32,Rupiah,Sports
+553,Cheese - Camembert,42,Franc,Movies
+554,Wine - Magnotta - Belpaese,32,Krona,Clothing
+555,Cheese Cloth No 60,2,Rupiah,Games
+556,Soup - Campbells Asian Noodle,74,Franc,Movies
+557,Ice Cream Bar - Oreo Cone,85,Peso,Automotive
+558,Wine - Penfolds Koonuga Hill,75,Krona,Jewelry
+559,Puree - Strawberry,25,Tugrik,Garden
+560,Foil - Round Foil,21,Peso,Books
+561,Icecream Cone - Areo Chocolate,72,Rupiah,Grocery
+562,Beef - Ground Lean Fresh,12,Ruble,Health
+563,Huck Towels White,98,Rupiah,Jewelry
+564,"Juice - Orange, 341 Ml",36,Pa'anga,Kids
+565,Veal - Sweetbread,71,Rupiah,Computers
+566,Beer - Guiness,9,Somoni,Baby
+567,Broom - Push,27,Euro,Electronics
+568,Fenngreek Seed,17,Euro,Toys
+569,Towels - Paper / Kraft,45,Peso,Books
+570,"Sugar - Brown, Individual",24,Yuan Renminbi,Movies
+571,"Chicken - Leg, Fresh",54,Peso,Jewelry
+572,Lobster - Tail 6 Oz,50,Som,Automotive
+573,Lamb Shoulder Boneless Nz,10,Sol,Baby
+574,Sansho Powder,79,Koruna,Toys
+575,Sauce - Salsa,56,Dollar,Clothing
+576,Steam Pan - Half Size Deep,29,Rupiah,Industrial
+577,Soupcontfoam16oz 116con,41,Peso,Tools
+578,Table Cloth 72x144 White,61,Som,Beauty
+579,V8 - Berry Blend,72,Peso,Electronics
+580,Tomatoes - Heirloom,66,Dong,Baby
+581,"Coffee - Colombian, Portioned",22,Yuan Renminbi,Computers
+582,Honey - Liquid,85,Dirham,Beauty
+583,Chef Hat 20cm,48,Tugrik,Sports
+584,Water - Evian 355 Ml,54,Hryvnia,Beauty
+585,Vinegar - Cider,100,Rupiah,Clothing
+586,Bacardi Mojito,23,Rupiah,Toys
+587,Grand Marnier,40,Rupiah,Movies
+588,Pastry - Chocolate Marble Tea,50,Yuan Renminbi,Beauty
+589,Wine - Duboeuf Beaujolais,86,Hryvnia,Movies
+590,Bread Bowl Plain,73,Sol,Kids
+591,Sage Ground Wiberg,34,Baht,Kids
+592,Pastry - Carrot Muffin - Mini,51,Dong,Outdoors
+593,"Pasta - Cappellini, Dry",71,Rupiah,Baby
+594,Chickensplit Half,54,Euro,Sports
+595,Turkey Leg With Drum And Thigh,16,Yuan Renminbi,Music
+596,Soup - Campbells Chili,45,Yuan Renminbi,Outdoors
+597,Soup - Base Broth Beef,18,Ruble,Movies
+598,"Glass - Wine, Plastic, Clear 5 Oz",30,Rupiah,Outdoors
+599,Beer - Sleeman Fine Porter,21,Euro,Industrial
+600,Cornish Hen,41,Euro,Clothing
+601,"Wine - White, Mosel Gold",20,Rupiah,Health
+602,Rice - Brown,55,Ruble,Clothing
+603,"Cheese - Havarti, Roasted Garlic",30,Euro,Garden
+604,Pepper - Yellow Bell,20,Yuan Renminbi,Outdoors
+605,Towel Dispenser,25,Krone,Baby
+606,Blue Curacao - Marie Brizard,44,Real,Baby
+607,Pork Casing,62,Yuan Renminbi,Garden
+608,"Tomatoes - Vine Ripe, Red",79,Peso,Health
+609,Pineapple - Regular,31,Shekel,Jewelry
+610,Nut - Pumpkin Seeds,49,Won,Kids
+611,Cocoa Powder - Natural,55,Zloty,Industrial
+612,Sauce Bbq Smokey,2,Euro,Industrial
+613,Coffee - Flavoured,18,Zloty,Beauty
+614,Bar Mix - Lemon,100,Hryvnia,Games
+615,Beef - Salted,80,Yuan Renminbi,Electronics
+616,Yeast Dry - Fermipan,30,Rand,Electronics
+617,Sauce - Alfredo,55,Naira,Shoes
+618,"Crab - Dungeness, Whole, live",33,Euro,Beauty
+619,Foie Gras,31,Euro,Jewelry
+620,Dc - Sakura Fu,84,Real,Health
+621,Peas Snow,71,Ruble,Movies
+622,"Soup - Campbells, Creamy",33,Peso,Grocery
+623,Grouper - Fresh,73,Peso,Tools
+624,Wine - Baron De Rothschild,31,Euro,Shoes
+625,Rye Special Old,91,Ringgit,Movies
+626,Kiwi,30,Dollar,Music
+627,Squid - U - 10 Thailand,16,Krona,Tools
+628,Melon - Cantaloupe,98,Peso,Clothing
+629,Flour - Fast / Rapid,15,Dollar,Home
+630,Sauce - Vodka Blush,7,Dinar,Garden
+631,Steampan Lid,16,Rand,Automotive
+632,Beer - Heinekin,35,Euro,Grocery
+633,"Beef - Rib Roast, Cap On",21,Yuan Renminbi,Electronics
+634,Coffee - Almond Amaretto,25,Ruble,Electronics
+635,Praline Paste,8,Peso,Health
+636,Wine - Cotes Du Rhone,38,Shilling,Computers
+637,"Crab - Dungeness, Whole",87,Zloty,Music
+638,"Juice - Tomato, 48 Oz",64,Yuan Renminbi,Outdoors
+639,Honey - Comb,27,Krone,Electronics
+640,Halibut - Steaks,33,Peso,Toys
+641,Sauce - Soy Low Sodium - 3.87l,35,Euro,Movies
+642,Cheese - Brick With Pepper,73,Peso,Automotive
+643,Piping - Bags Quizna,17,Dram,Grocery
+644,Longos - Chicken Curried,47,Ruble,Clothing
+645,Triple Sec - Mcguinness,25,Som,Jewelry
+646,Tea - Orange Pekoe,68,Peso,Beauty
+647,Wine - Beringer Founders Estate,26,Euro,Sports
+648,Chips - Doritos,80,Yuan Renminbi,Tools
+649,V8 - Berry Blend,44,Euro,Tools
+650,Wine - Duboeuf Beaujolais,85,Euro,Sports
+651,Napkin - Beverage 1 Ply,38,Peso,Computers
+652,Water - Green Tea Refresher,31,Euro,Movies
+653,Ecolab Digiclean Mild Fm,40,Yuan Renminbi,Baby
+654,"Lamb - Pieces, Diced",11,Peso,Health
+655,Sloe Gin - Mcguinness,42,Yuan Renminbi,Sports
+656,"Salmon - Whole, 4 - 6 Pounds",11,Won,Computers
+657,Pastry - Cherry Danish - Mini,100,Euro,Kids
+658,Coffee - Almond Amaretto,6,Rupiah,Grocery
+659,Lettuce - Lambs Mash,51,Euro,Beauty
+660,Eggplant Oriental,47,Yuan Renminbi,Baby
+661,"Pasta - Shells, Medium, Dry",3,Yuan Renminbi,Computers
+662,Pastry - Choclate Baked,61,Rupiah,Electronics
+663,Wine - Ruffino Chianti,7,Ruble,Garden
+664,Worcestershire Sauce,78,Bolivar,Movies
+665,Cheese - Comte,83,Yuan Renminbi,Movies
+666,Carbonated Water - Wildberry,34,Ruble,Sports
+667,Ecolab - Hobart Upr Prewash Arm,96,Euro,Industrial
+668,Island Oasis - Peach Daiquiri,10,Dollar,Jewelry
+669,Lambcasing,79,Euro,Outdoors
+670,Tomato - Plum With Basil,26,Yuan Renminbi,Beauty
+671,Jameson - Irish Whiskey,40,Yuan Renminbi,Jewelry
+672,Cheese - Asiago,79,Yuan Renminbi,Clothing
+673,Coffee Swiss Choc Almond,97,Krona,Music
+674,Icecream Bar - Del Monte,68,Bolivar,Tools
+675,"Trout - Hot Smkd, Dbl Fillet",94,Lari,Garden
+676,Sugar - Monocystal / Rock,26,Peso,Games
+677,Snapple - Mango Maddness,90,Yuan Renminbi,Sports
+678,Wine - Riesling Dr. Pauly,89,Real,Health
+679,Vinegar - Red Wine,100,Euro,Industrial
+680,Bread Base - Italian,78,Birr,Industrial
+681,Cookie Dough - Peanut Butter,17,Zloty,Garden
+682,Beer - Upper Canada Lager,31,Dinar,Games
+683,"Pepper - Black, Ground",54,Rupiah,Games
+684,"Sugar - Sweet N Low, Individual",41,Yuan Renminbi,Movies
+685,"Schnappes - Peach, Walkers",18,Rupiah,Music
+686,Basil - Pesto Sauce,67,Naira,Industrial
+687,Garbage Bags - Black,14,Krona,Beauty
+688,Creme De Cacao Mcguines,36,Euro,Shoes
+689,Yoghurt Tubes,22,Dollar,Games
+690,Wine - Chardonnay Mondavi,71,Yuan Renminbi,Shoes
+691,Lamb Tenderloin Nz Fr,13,Yuan Renminbi,Automotive
+692,"Wine - Red, Cooking",63,Rupee,Electronics
+693,Flavouring - Raspberry,1,Baht,Outdoors
+694,Spinach - Packaged,13,Euro,Home
+695,Beef - Texas Style Burger,85,Ruble,Clothing
+696,Chicken - Tenderloin,40,Ruble,Health
+697,Coffee - Decafenated,24,Peso,Automotive
+698,Cinnamon Rolls,86,Yuan Renminbi,Games
+699,Beer - Camerons Auburn,39,Rupiah,Books
+700,Bread - Calabrese Baguette,22,Euro,Outdoors
+701,Tea Peppermint,83,Peso,Home
+702,Bread - Corn Muffaleta Onion,44,Rupiah,Electronics
+703,Soup Bowl Clear 8oz92008,25,Yuan Renminbi,Grocery
+704,Coffee - Frthy Coffee Crisp,11,Ruble,Toys
+705,Wine - Crozes Hermitage E.,10,Yuan Renminbi,Home
+706,Beer - Molson Excel,66,Yuan Renminbi,Beauty
+707,"Mushroom - Enoki, Dry",35,Yuan Renminbi,Electronics
+708,Flour Dark Rye,53,Manat,Kids
+709,Bols Melon Liqueur,54,Real,Toys
+710,"Melon - Watermelon, Seedless",3,Rupiah,Beauty
+711,Cheese - Le Cru Du Clocher,13,Franc,Electronics
+712,"Mushroom - Chanterelle, Dry",92,Yuan Renminbi,Electronics
+713,"Gingerale - Schweppes, 355 Ml",7,Yuan Renminbi,Electronics
+714,Bread - French Stick,76,Ruble,Games
+715,Wine - Riesling Dr. Pauly,51,Yuan Renminbi,Games
+716,Flour - Whole Wheat,67,Krona,Tools
+717,Bread Sour Rolls,14,Rupiah,Computers
+718,Bagel - Plain,72,Euro,Health
+719,Cheese - Cheddarsliced,25,Dollar,Health
+720,Nantucket Orange Juice,29,Peso,Movies
+721,Wine - White Cab Sauv.on,32,Dram,Garden
+722,Tobasco Sauce,44,Euro,Outdoors
+723,"Yogurt - Blueberry, 175 Gr",59,Krone,Computers
+724,Oil - Canola,92,Yuan Renminbi,Industrial
+725,Lotus Rootlets - Canned,13,Yuan Renminbi,Computers
+726,"Syrup - Golden, Lyles",62,Dollar,Health
+727,"Bread - Roll, Soft White Round",55,Rupee,Clothing
+728,Onions - Red Pearl,14,Hryvnia,Jewelry
+729,"Beef - Tenderlion, Center Cut",65,Ruble,Health
+730,Sponge Cake Mix - Vanilla,82,Shekel,Industrial
+731,"Wine - Red, Gamay Noir",43,Euro,Garden
+732,"Water - Mineral, Natural",30,Kip,Grocery
+733,Appetizer - Southwestern,58,Euro,Clothing
+734,Prunes - Pitted,95,Rupiah,Home
+735,Ham Black Forest,60,Yuan Renminbi,Electronics
+736,Bread - Raisin Walnut Oval,44,Colon,Beauty
+737,Sauce - Sesame Thai Dressing,97,Zloty,Books
+738,"Chilli Paste, Hot Sambal Oelek",18,Rupiah,Industrial
+739,Bread - Multigrain Oval,33,Koruna,Beauty
+740,"Beef - Roasted, Cooked",86,Ringgit,Books
+741,Sauce - Salsa,23,Dong,Movies
+742,Flour - Rye,46,Zloty,Electronics
+743,Tomato - Peeled Italian Canned,33,Dollar,Computers
+744,Dikon,86,Yuan Renminbi,Computers
+745,Wine - Fontanafredda Barolo,62,Euro,Books
+746,Cardamon Seed / Pod,83,Denar,Movies
+747,Raspberries - Frozen,79,Euro,Shoes
+748,Sausage - Meat,81,Afghani,Music
+749,Wiberg Super Cure,43,Peso,Home
+750,Cookie Trail Mix,6,Rupiah,Music
+751,Bonito Flakes - Toku Katsuo,94,Yuan Renminbi,Shoes
+752,"Pepper - Green, Chili",60,Euro,Garden
+753,Beer - Steamwhistle,57,Rand,Books
+754,Coffee - 10oz Cup 92961,23,Sol,Shoes
+755,"Cake Circle, Foil, Scallop",23,Euro,Garden
+756,Red Currant Jelly,83,Krona,Outdoors
+757,Lotus Rootlets - Canned,87,Koruna,Movies
+758,Wine - Wyndham Estate Bin 777,94,Yen,Home
+759,"Pasta - Lasagna Noodle, Frozen",74,Peso,Beauty
+760,Appetizer - Escargot Puff,44,Yuan Renminbi,Music
+761,Wine - Trimbach Pinot Blanc,45,Peso,Jewelry
+762,"Bread - White, Sliced",16,Ruble,Computers
+763,Chicken - White Meat With Tender,57,Euro,Movies
+764,English Muffin,35,Balboa,Clothing
+765,"Beef - Ox Tail, Frozen",40,Peso,Outdoors
+766,Wine - Gewurztraminer Pierre,81,Naira,Games
+767,Turkey - Oven Roast Breast,32,Rial,Garden
+768,"Olives - Black, Pitted",78,Real,Beauty
+769,Juice - Orange,22,Peso,Jewelry
+770,Heavy Duty Dust Pan,59,Rupiah,Shoes
+771,Tray - 16in Rnd Blk,60,Yen,Tools
+772,Ecolab - Hobart Washarm End Cap,69,Yuan Renminbi,Garden
+773,Rice - 7 Grain Blend,63,Yuan Renminbi,Tools
+774,"Wine - Red, Lurton Merlot De",49,Krona,Games
+775,"Pasta - Cappellini, Dry",53,Zloty,Health
+776,Asparagus - Mexican,59,Yuan Renminbi,Books
+777,"Wine - White, Colubia Cresh",1,Krona,Automotive
+778,Beer - Heinekin,88,Shilling,Books
+779,Juice - Ocean Spray Kiwi,58,Yuan Renminbi,Computers
+780,Lettuce - Baby Salad Greens,40,Yuan Renminbi,Clothing
+781,"Rum - Coconut, Malibu",73,Euro,Sports
+782,Sauce - Rosee,66,Rupiah,Clothing
+783,Mousse - Banana Chocolate,14,Euro,Sports
+784,Bread - Bistro White,57,Franc,Beauty
+785,Onion Powder,69,Yuan Renminbi,Grocery
+786,Ham Black Forest,95,Ruble,Music
+787,Sprouts - Bean,20,Zloty,Clothing
+788,Beer - Sleeman Fine Porter,86,Koruna,Automotive
+789,"Cheese - Boursin, Garlic / Herbs",68,Peso,Jewelry
+790,Soho Lychee Liqueur,3,Krona,Music
+791,Wine - Casablanca Valley,66,Zloty,Shoes
+792,Container - Clear 16 Oz,42,Shilling,Books
+793,Towel - Roll White,92,Real,Beauty
+794,"Mushroom - Oyster, Fresh",43,Yuan Renminbi,Games
+795,Bread - Corn Muffaletta,37,Ruble,Movies
+796,Pepper - Red Chili,39,Yuan Renminbi,Electronics
+797,Cheese Cloth,96,Euro,Beauty
+798,Beef - Tender Tips,59,Yuan Renminbi,Kids
+799,Bread - Sour Batard,68,Real,Kids
+800,Snapple - Mango Maddness,35,Yuan Renminbi,Home
+801,Flavouring - Orange,91,Shekel,Toys
+802,Parsley Italian - Fresh,96,Euro,Outdoors
+803,Nori Sea Weed - Gold Label,42,Dollar,Grocery
+804,Madeira,23,Yuan Renminbi,Garden
+805,"Soup - Campbells, Minestrone",98,Dinar,Jewelry
+806,"Veal - Round, Eye Of",11,Euro,Clothing
+807,Horseradish Root,4,Rupiah,Toys
+808,Avocado,58,Yuan Renminbi,Movies
+809,Ecolab - Balanced Fusion,78,Euro,Grocery
+810,Appetizer - Escargot Puff,85,Koruna,Computers
+811,Carbonated Water - Orange,87,Naira,Music
+812,Sauce - Hoisin,46,Rial,Kids
+813,Squid - Tubes / Tenticles 10/20,34,Rial,Shoes
+814,Wine - German Riesling,26,Real,Beauty
+815,Couscous,31,Rupiah,Sports
+816,Foil Wrap,73,Euro,Automotive
+817,Wine - Casablanca Valley,31,Shilling,Beauty
+818,Kellogs All Bran Bars,93,Koruna,Sports
+819,Sauce - Marinara,17,Baht,Beauty
+820,Sprouts Dikon,76,Zloty,Games
+821,"Pork - Loin, Center Cut",39,Shekel,Books
+822,Beer - Camerons Auburn,25,Peso,Movies
+823,Beer - Blue,66,Baht,Beauty
+824,Lighter - Bbq,63,Yuan Renminbi,Garden
+825,Red Cod Fillets - 225g,64,Yuan Renminbi,Kids
+826,Sugar - Invert,88,Won,Beauty
+827,Egg Patty Fried,28,Koruna,Electronics
+828,Oil - Canola,31,Birr,Computers
+829,Chicken - Whole,33,Franc,Computers
+830,Lemon Grass,17,Real,Industrial
+831,"Gingerale - Schweppes, 355 Ml",34,Peso,Kids
+832,Wine - Sake,36,Yuan Renminbi,Industrial
+833,Tarts Assorted,100,Lev,Games
+834,"Nut - Almond, Blanched, Ground",12,Leu,Health
+835,Extract - Rum,100,Euro,Computers
+836,"Gingerale - Schweppes, 355 Ml",82,Yuan Renminbi,Health
+837,Nectarines,93,Dollar,Computers
+838,Pea - Snow,20,Dollar,Beauty
+839,Beer - Sleemans Honey Brown,24,Peso,Sports
+840,Mushroom - Porcini Frozen,58,Naira,Grocery
+841,Chocolate - Sugar Free Semi Choc,96,Peso,Clothing
+842,Chocolate - Unsweetened,72,Krona,Jewelry
+843,Sachet,91,Yen,Computers
+844,"Chilli Paste, Sambal Oelek",59,Real,Computers
+845,Tea - Mint,46,Hryvnia,Games
+846,Flavouring - Orange,75,Afghani,Home
+847,Laundry - Bag Cloth,49,Hryvnia,Kids
+848,Oranges,25,Peso,Sports
+849,Marzipan 50/50,77,Rupiah,Beauty
+850,Sea Bass - Whole,95,Real,Outdoors
+851,"Carrots - Mini, Stem On",43,Koruna,Home
+852,Oil - Cooking Spray,34,Krone,Games
+853,Wine - Blue Nun Qualitatswein,92,Yuan Renminbi,Movies
+854,Wine - Alicanca Vinho Verde,19,Rupiah,Home
+855,Chocolate - Dark,4,Yuan Renminbi,Sports
+856,Wine - Sicilia Igt Nero Avola,79,Real,Beauty
+857,Coffee Decaf Colombian,74,Peso,Home
+858,Pastry - Butterscotch Baked,93,Real,Computers
+859,Fish - Bones,80,Rial,Computers
+860,"Wine - Harrow Estates, Vidal",91,Zloty,Books
+861,Cinnamon Rolls,66,Koruna,Baby
+862,Shrimp - Black Tiger 26/30,89,Baht,Music
+863,"Nut - Pistachio, Shelled",95,Euro,Jewelry
+864,Squash - Butternut,42,Peso,Sports
+865,"Roe - Lump Fish, Red",70,Euro,Automotive
+866,"Wine - Red, Mouton Cadet",29,Sol,Industrial
+867,"Cake Circle, Foil, Scallop",95,Yuan Renminbi,Toys
+868,Sprouts - Bean,84,Sol,Health
+869,"Syrup - Monin, Amaretta",32,Dollar,Electronics
+870,Sugar - White Packet,22,Peso,Shoes
+871,Lid Tray - 12in Dome,92,Kuna,Shoes
+872,Wine - Taylors Reserve,82,Rupiah,Tools
+873,Hot Chocolate - Individual,88,Hryvnia,Beauty
+874,Tofu - Soft,32,Euro,Computers
+875,Bread - Focaccia Quarter,47,Lari,Jewelry
+876,"Lobster - Tail, 3 - 4 Oz",98,Boliviano,Baby
+877,Pork Salted Bellies,9,Peso,Electronics
+878,Soap - Hand Soap,46,Zloty,Kids
+879,"Mushroom - Enoki, Dry",93,Zloty,Baby
+880,Energy Drink - Franks Pineapple,94,Rupiah,Jewelry
+881,Juice - Apple 284ml,78,Yuan Renminbi,Tools
+882,Bandage - Finger Cots,22,Rupiah,Games
+883,Wine - Acient Coast Caberne,9,Krona,Toys
+884,Veal - Bones,86,Real,Toys
+885,Sugar - Palm,11,Euro,Kids
+886,Mix - Cocktail Ice Cream,41,Hryvnia,Kids
+887,"Potatoes - Purple, Organic",36,Rand,Shoes
+888,Longos - Greek Salad,70,Krone,Tools
+889,Juice - Apple Cider,31,Litas,Computers
+890,Soup - Campbells Bean Medley,91,Rupiah,Beauty
+891,Sauce - Rosee,69,Peso,Kids
+892,Relish,42,Rupee,Garden
+893,Wine - Bouchard La Vignee Pinot,94,Dollar,Garden
+894,Latex Rubber Gloves Size 9,68,Ringgit,Grocery
+895,Pecan Raisin - Tarts,11,Dollar,Home
+896,Beans - Kidney White,39,Rial,Automotive
+897,Graham Cracker Mix,13,Yuan Renminbi,Kids
+898,Mix Pina Colada,99,Yuan Renminbi,Electronics
+899,Bread - Triangle White,100,Franc,Automotive
+900,Walkers Special Old Whiskey,71,Peso,Games
+901,Table Cloth 90x90 Colour,29,Sol,Jewelry
+902,Beef - Short Ribs,2,Dollar,Sports
+903,Maple Syrup,35,Yen,Industrial
+904,Veal - Liver,42,Yuan Renminbi,Computers
+905,Spice - Pepper Portions,50,Real,Jewelry
+906,Flounder - Fresh,32,Yuan Renminbi,Health
+907,Wooden Mop Handle,57,Yuan Renminbi,Baby
+908,Soup - Verve - Chipotle Chicken,15,Sol,Grocery
+909,Nut - Pumpkin Seeds,23,Ruble,Shoes
+910,Milk - 2% 250 Ml,70,Franc,Automotive
+911,Cocoa Butter,18,Yuan Renminbi,Clothing
+912,Bar Nature Valley,87,Rupiah,Music
+913,"Veal - Brisket, Provimi,bnls",37,Dollar,Industrial
+914,Ecolab - Balanced Fusion,39,Yuan Renminbi,Outdoors
+915,Island Oasis - Cappucino Mix,31,Euro,Grocery
+916,Longos - Lasagna Beef,13,Zloty,Health
+917,Chivas Regal - 12 Year Old,18,Naira,Home
+918,"Coffee - Beans, Whole",85,Quetzal,Kids
+919,Wine - Penfolds Koonuga Hill,36,Yen,Tools
+920,"Basil - Dry, Rubbed",35,Yuan Renminbi,Tools
+921,Hummus - Spread,24,Rupiah,Garden
+922,Cake - Cheese Cake 9 Inch,30,Tenge,Baby
+923,Squash - Sunburst,75,Dollar,Computers
+924,Pastry - Choclate Baked,27,Shilling,Tools
+925,Langers - Ruby Red Grapfruit,43,Yuan Renminbi,Tools
+926,Nantucket - Orange Mango Cktl,7,Ruble,Health
+927,Curry Powder,44,Dirham,Jewelry
+928,Otomegusa Dashi Konbu,45,Denar,Grocery
+929,Bread - Italian Corn Meal Poly,20,Krona,Outdoors
+930,Pepper - Jalapeno,74,Yuan Renminbi,Music
+931,Beer - Sleeman Fine Porter,61,Yuan Renminbi,Music
+932,Nantuket Peach Orange,24,Yuan Renminbi,Toys
+933,Maple Syrup,72,Real,Sports
+934,"Syrup - Monin, Amaretta",96,Baht,Electronics
+935,Horseradish - Prepared,85,Naira,Health
+936,Ice Cream Bar - Oreo Cone,94,Krona,Shoes
+937,Ecolab Silver Fusion,68,Rand,Grocery
+938,Shiro Miso,20,Koruna,Clothing
+939,Wine - Penfolds Koonuga Hill,76,Rupiah,Beauty
+940,Beef - Ground Lean Fresh,2,Dollar,Books
+941,Bread - Assorted Rolls,22,Yuan Renminbi,Movies
+942,Ostrich - Fan Fillet,48,Yuan Renminbi,Beauty
+943,"Pasta - Cappellini, Dry",74,Pound,Automotive
+944,"Pail - 15l White, With Handle",13,Tugrik,Toys
+945,"Soda Water - Club Soda, 355 Ml",33,Rupiah,Jewelry
+946,Soup - Campbells Mac N Cheese,87,Yuan Renminbi,Health
+947,Bread - Italian Sesame Poly,78,Rupiah,Kids
+948,Tilapia - Fillets,60,Euro,Health
+949,Breadfruit,31,Ruble,Music
+950,Appetizer - Seafood Assortment,46,Dirham,Beauty
+951,Bread - Kimel Stick Poly,13,Peso,Grocery
+952,"Chocolate - Milk, Callets",22,Ruble,Electronics
+953,Cake - Mini Cheesecake,51,Yuan Renminbi,Baby
+954,Artichokes - Jerusalem,45,Koruna,Books
+955,Cranberries - Dry,100,Dollar,Sports
+956,Bread - Raisin Walnut Pull,59,Kip,Books
+957,V8 - Vegetable Cocktail,52,Rupiah,Beauty
+958,Longos - Chicken Wings,7,Ruble,Clothing
+959,Yogurt - Assorted Pack,9,Sol,Toys
+960,Banana Turning,50,Yuan Renminbi,Outdoors
+961,"Wine - Saint - Bris 2002, Sauv",38,Yen,Kids
+962,Tomatoes - Cherry,15,Rupiah,Outdoors
+963,"Mushrooms - Black, Dried",86,Yuan Renminbi,Computers
+964,Sprite - 355 Ml,78,Yen,Tools
+965,Beans - Green,93,Sol,Tools
+966,"Beef - Ox Tail, Frozen",98,Peso,Toys
+967,Ham Black Forest,39,Euro,Music
+968,Syrup - Chocolate,82,Yuan Renminbi,Tools
+969,Veal - Heart,19,Dollar,Sports
+970,Pecan Raisin - Tarts,71,Bolivar,Outdoors
+971,Rappini - Andy Boy,25,Peso,Movies
+972,Flour - Fast / Rapid,51,Real,Garden
+973,Noodles - Steamed Chow Mein,12,Pound,Tools
+974,Soup - Cream Of Potato / Leek,59,Yuan Renminbi,Sports
+975,Bread - Raisin,70,Ruble,Toys
+976,Table Cloth 54x72 Colour,6,Yuan Renminbi,Toys
+977,Swordfish Loin Portions,58,Rupiah,Games
+978,Cranberries - Fresh,42,Taka,Toys
+979,Instant Coffee,84,Dollar,Home
+980,"Quail - Eggs, Fresh",19,Yuan Renminbi,Clothing
+981,Tarragon - Fresh,25,Lempira,Outdoors
+982,Cheese - St. Paulin,99,Dinar,Toys
+983,"Salmon - Atlantic, No Skin",24,Manat,Baby
+984,Pork - Side Ribs,59,Krona,Grocery
+985,Paper Towel Touchless,75,Yuan Renminbi,Electronics
+986,Grapes - Red,29,Yuan Renminbi,Outdoors
+987,Ham - Virginia,64,Real,Baby
+988,Cheese - Cambozola,40,Zloty,Health
+989,"Beef - Kindney, Whole",85,Real,Games
+990,Garbag Bags - Black,23,Rupiah,Industrial
+991,Lettuce - Lolla Rosa,19,Euro,Music
+992,Lamb - Shanks,4,Yuan Renminbi,Shoes
+993,Apricots - Halves,1,Peso,Home
+994,Browning Caramel Glace,41,Zloty,Garden
+995,Soup Knorr Chili With Beans,99,Manat,Toys
+996,Muffin - Mix - Bran And Maple 15l,64,Real,Toys
+997,Absolut Citron,45,Euro,Industrial
+998,Taro Leaves,73,Yuan Renminbi,Clothing
+999,Bag Stand,96,Rupiah,Clothing
+1000,V8 Splash Strawberry Kiwi,96,Zloty,Baby

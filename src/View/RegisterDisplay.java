@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class RegisterDisplay {
-    public static void main(String[] args) throws IOException {
+    public void register() throws IOException {
 
         // Enter customer's full name
         Scanner input = new Scanner(System.in);

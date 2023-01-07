@@ -10,7 +10,7 @@ import java.io.PrintWriter;
 import java.util.Scanner;
 
 public class LoginDisplay {
-    public static void main(String[] args) throws IOException {
+    public void login() throws IOException {
         String pathFile = "src/Data/Customer.txt";
         String loginFile = "src/Data/LoginCustomer.txt";
         String userName;

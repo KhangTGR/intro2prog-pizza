@@ -7,22 +7,22 @@ public class ChangeController {
     public void changeCustomerRank(String rank, String filepath, String id ) {
         try {
             String tempFile = "src/Data/tempProducts.txt";
-            File oldFile = new File(filepath);
+            File mainFile = new File(filepath);
             File newFile = new File(tempFile);
             FileWriter fileWriter = new FileWriter(tempFile, true);
             BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
             PrintWriter printWriter = new PrintWriter(bufferedWriter);
-            Scanner scan = new Scanner(oldFile);
+            Scanner scan = new Scanner(mainFile);
             scan.useDelimiter("[;\n]");
             scan.nextLine();
             printWriter.println("id;fullname;username;password;phonenumber;rank");
             while (scan.hasNext()) {
-                String userID = scan.next();
-                String userFullName = scan.next();
-                String userUserName = scan.next();
-                String userPassWord = scan.next();
-                String userPhoneNum = scan.next();
-                String userRank = scan.next();
+                String userID = scan.nextLine();
+                String userFullName = scan.nextLine();
+                String userUserName = scan.nextLine();
+                String userPassWord = scan.nextLine();
+                String userPhoneNum = scan.nextLine();
+                String userRank = scan.nextLine();
                 if (userID.equals(id)) {
                     printWriter.println(userID + ';' + userFullName + ';' + userUserName + ';' + userPassWord + ';' + userPhoneNum + ';' + rank );
                 }
@@ -33,10 +33,9 @@ public class ChangeController {
                 scan.close();
                 printWriter.flush();
                 printWriter.close();
-                oldFile.delete();
+                mainFile.delete();
                 File dump = new File(filepath);
                 newFile.renameTo(dump);
-
             }
 
         }catch (IOException e) {
@@ -44,11 +43,5 @@ public class ChangeController {
         }
 
     }
-    public void ChangeOrderStatus(String filepath, String status, String id) {
-        try {
-            String tempFile = "src/Data/tempProducts.txt";
-        }catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
+
 }
