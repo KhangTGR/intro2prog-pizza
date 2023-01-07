@@ -1,0 +1,7 @@
+ID;Category
+I001-2001;Laptop
+I002-1988;Laptop
+I003-1992;Phone
+I004-1999;Phone
+I005-2015;Earbud
+I006-2014;Headset
