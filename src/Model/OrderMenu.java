@@ -6,7 +6,7 @@ import java.util.Date;
 public class OrderMenu {
     private ArrayList<Order> orders;
     private Date date;
-    private Customer customer;
+    private Model.Customer customer;
     private double total;
 
     public OrderMenu() {
@@ -17,7 +17,7 @@ public class OrderMenu {
 
     }
 
-    public OrderMenu( ArrayList<Order> orders, Date date, Customer customer, double total) {
+    public OrderMenu(ArrayList<Order> orders, Date date, Model.Customer customer, double total) {
         this.orders = orders;
         this.date = date;
         this.customer = customer;
@@ -33,7 +33,7 @@ public class OrderMenu {
         return date;
     }
 
-    public Customer getCustomer() {
+    public Model.Customer getCustomer() {
         return customer;
     }
 

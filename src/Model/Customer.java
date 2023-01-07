@@ -1,4 +1,4 @@
-package src.Model;
+package Model;
 
 public class Customer {
     private String name;
@@ -13,27 +13,34 @@ public class Customer {
         this.password = null;
     }
 
-    public Customer(String name, String phone, String userName, String password) {
-        this.name = name;
-        this.phone = phone;
-        this.userName = userName;
-        this.password = password;
-    }
-
     public String getName() {
         return name;
     }
-
+    public void setName(String name) {
+        this.name = name;
+    }
     public String getPhone() {
         return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
     }
 
     public String getUserName() {
         return userName;
     }
 
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
+
     public String getPassword() {
         return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
     }
 
     @Override
