@@ -1,7 +1,10 @@
-ID;Category
-I001-2001;Laptop
-I002-1988;Laptop
-I003-1992;Phone
-I004-1999;Phone
-I005-2015;Earbud
-I006-2014;Headset
+id;category
+CATEGORY1;Phone
+CATEGORY2;Headset
+CATEGORY3;Laptop
+CATEGORY4;Socket
+CATEGORY5;PC
+CATEGORY6;Watch
+CATEGORY7;Earbud
+
+
