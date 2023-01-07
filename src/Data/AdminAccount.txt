@@ -1,0 +1,2 @@
+ID;fullname;username;password;phonenum
+1;Nguyen Huynh Quang;admin;123456;333333

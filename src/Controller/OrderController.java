@@ -21,7 +21,7 @@ public class OrderController  {
             BufferedWriter bw = new BufferedWriter(filew);
             PrintWriter printw = new PrintWriter(bw);
             for(int i =0; i<(orderList.getOrders()).size();i++){
-                printw.println("ORD" + Id + ";" +orderList.getDate() + ";" + (((orderList.getOrders()).get(i)).getProducts()).getName() + ";" + (((orderList.getOrders()).get(i)).getQuantity())  + ";" + (((orderList.getOrders()).get(i)).getTotal()) + ";" + orderList.getTotal() +";" + customerID + ";" + (orderList.getCustomer()).getFullName() + ";" + (orderList.getCustomer()).getPhoneNumber() + ";" + "Delivered");
+                printw.println("ORD" + Id + ";" +orderList.getDate() + ";" + (((orderList.getOrders()).get(i)).getProduct()).getTitle() + ";" + (((orderList.getOrders()).get(i)).getQuantity())  + ";" + (((orderList.getOrders()).get(i)).getTotal()) + ";" + orderList.getTotal() +";" + customerID + ";" + (orderList.getCustomer()).getFullName() + ";" + (orderList.getCustomer()).getPhoneNumber() + ";" + "Delivered");
             }
             printw.flush();
             printw.close();
