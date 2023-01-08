@@ -1,18 +1,11 @@
 package Controller;
 
-import Model.Customer;
-
-import java.io.Console;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Scanner;
 
-public class LoginController {
-    public HashMap<String, String> passMap(String filepath) throws IOException{
-        DataController datacontrol = new DataController();
+public class loginModifier {
+    public HashMap<String, String> passMap(String filepath){
+        dataModifier datacontrol = new dataModifier();
         HashMap<String, String> passIndex = new HashMap<>();
         ArrayList<String> userNameList = datacontrol.readData(filepath, 2);
         ArrayList<String> passWordList = datacontrol.readData(filepath, 3);
@@ -22,7 +15,7 @@ public class LoginController {
         return passIndex;
 
     }
-    public boolean verification(String userName, String passWord, String filepath) throws IOException {
+    public boolean verification(String userName, String passWord, String filepath) {
         if(passMap(filepath).containsKey(userName)) {
             if (passWord.equals(passMap(filepath).get(userName))) {
                 return true;

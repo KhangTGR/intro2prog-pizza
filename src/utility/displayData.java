@@ -1,16 +1,14 @@
 package utility;
-import Controller.dataModifier;
-import Controller.orderModifier;
 
+import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 
 
 
 public class displayData {
 
-    public void displayGoods () {
+    public void displayGoods () throws IOException {
         String route ="src/Data/items.txt";
         dataModifier data = new dataModifier();
         generatedId  lineNumber =  new generatedId();
@@ -24,7 +22,7 @@ public class displayData {
         }
     }
 
-    public void displayClientInformation (String username) {
+    public void displayClientInformation (String username) throws IOException {
         String route = "src/Data/customers.txt";
         dataModifier data  = new dataModifier();
         generatedId lineNumber = new generatedId();
@@ -43,7 +41,7 @@ public class displayData {
         }
     }
 
-    public void sortCategory( String category) {
+    public void sortCategory( String category) throws IOException {
             String route = "src/Data/items.txt";
             dataModifier data = new dataModifier();
             generatedId lineNumber = new generatedId();
@@ -58,7 +56,7 @@ public class displayData {
             }
     }
 
-    public void sortPrice(double min, double max) {
+    public void sortPrice(double min, double max) throws IOException {
             String route = "src/Data/items.txt";
             dataModifier data =  new dataModifier();
             generatedId lineNumber = new generatedId();

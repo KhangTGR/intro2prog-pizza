@@ -1,7 +1,7 @@
 package View;
 
-import Controller.PassWordMasking;
-import Controller.RegisterController;
+import utility.PassWordMasking;
+import Controller.registerModifier;
 import Model.Customer;
 
 import java.io.IOException;
@@ -19,7 +19,7 @@ public class RegisterDisplay {
         String username = input.nextLine();
         // Checking for duplicate user
         while (true){
-            RegisterController register = new RegisterController();
+            registerModifier register = new registerModifier();
             if (register.checkExistUser(username)) {
                 System.out.println("Your username has already exist! Please try a different username: ");
                 username = input.nextLine();
@@ -36,7 +36,7 @@ public class RegisterDisplay {
         System.out.println("Please enter your phone number: ");
         String phoneNum  = input.nextLine();
         Customer customer = new Customer(fullName, username, password, phoneNum);
-        RegisterController register = new RegisterController();
+        registerModifier register = new registerModifier();
         register.createNewAccount(customer);
 
         }

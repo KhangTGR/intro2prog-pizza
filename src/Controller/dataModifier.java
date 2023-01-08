@@ -3,50 +3,41 @@ package Controller;
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.Collections;
+import java.util.*;
 
 public class dataModifier {
-    public ArrayList<String> readData(String path, int index){
+    public ArrayList<String> readData(String filepath, int index) throws IOException {
+        ArrayList<String> dataValues = new ArrayList<>();
         String line;
-        ArrayList<String> dataList = new ArrayList<>();
-        FileReader fr;
+        FileReader fileReader;
         try {
-            fr = new FileReader(path);
-        } catch (FileNotFoundException e) {
-            throw new RuntimeException(e);
+            fileReader = new FileReader(filepath);
+        } catch (FileNotFoundException f) {
+            throw new RuntimeException(f);
         }
-
         try {
-            BufferedReader reader = new BufferedReader(fr);
-            while (true) {
-                line = reader.readLine();
-                if (line != null) {
-                    dataList.add(line.split(";")[index]);
-                } else {
-                    break;
-                }
+            BufferedReader br = new BufferedReader(fileReader);
+            while ((line = br.readLine()) != null) {
+                dataValues.add(line.split(";")[index]);
             }
-        } catch (IOException e) {
+        }catch (IOException e) {
             e.printStackTrace();
         }
-        return dataList;
+        return dataValues;
     }
 
-    public ArrayList<String> readDataByLine(String path, int index){
+
+    public ArrayList<String> readDataByLines(String path, int index)   {
         String line;
-        ArrayList<String> dataList = new ArrayList<>();
-        FileReader fr;
-        try{
+        ArrayList<String> dataValues = new ArrayList<>();
+        try {
             line = Files.readAllLines(Paths.get(path)).get(index);
-            Collections.addAll(dataList, line.split(";"));
+            Collections.addAll(dataValues, line.split(";"));
+        }catch (IOException e) {
+            e.printStackTrace();
         }
-      catch(IOException e){
-            System.out.println(e);
-        }
-        return dataList;
+        return dataValues;
     }
 
 }
-
 

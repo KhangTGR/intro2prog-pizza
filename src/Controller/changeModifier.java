@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class changeModifier {
 
-    public void alterProductData(String path,Product product, String id ) {
+    public void alterProductData(String path, Product product, String id ) {
             try {
                 String productId;
                 double productPrice;

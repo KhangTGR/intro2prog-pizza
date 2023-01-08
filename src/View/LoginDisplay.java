@@ -1,7 +1,7 @@
 package View;
 
-import Controller.LoginController;
-import Controller.PassWordMasking;
+import Controller.loginModifier;
+import utility.PassWordMasking;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
@@ -16,7 +16,7 @@ public class LoginDisplay {
         String userName;
         String passWord;
         Scanner input = new Scanner(System.in);
-        LoginController login = new LoginController();
+        loginModifier login = new loginModifier();
         do {
             System.out.println("Please enter your username: ");
              userName= input.nextLine();
@@ -50,7 +50,7 @@ public class LoginDisplay {
         String adminName;
         String passWord;
         Scanner input = new Scanner(System.in);
-        LoginController login = new LoginController();
+        loginModifier login = new loginModifier();
         do{
             System.out.println("Enter your username: ");
             adminName = input.nextLine();

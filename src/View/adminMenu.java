@@ -1,21 +1,21 @@
 package View;
 import Controller.categoryModifier;
 import Controller.changeModifier;
-import Controller.dataModifier;
 import Controller.productModifier;
 import Model.Category;
 import Model.Product;
 import utility.displayData;
 
-import javax.annotation.processing.SupportedSourceVersion;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Objects;
 import java.util.Scanner;
+import Controller.dataModifier;
 
 
-public class adminMenu extends adminGoodsDisplay {
-    public void displayPanel() {
+public class adminMenu extends adminGoodsDisplay  {
+    public void displayPanel()  {
         Scanner scan = new Scanner(System.in);
         int choice;
         System.out.println(
@@ -63,7 +63,7 @@ public class adminMenu extends adminGoodsDisplay {
 
 
     /* ----- ADD PRODUCT CHOICE ------- */
-    public void addProduct () {
+    public void addProduct () throws IOException {
         boolean emerged = false;
         String categoryRoute = "src/Data/category.txt";
         dataModifier data = new dataModifier();
@@ -143,7 +143,7 @@ public class adminMenu extends adminGoodsDisplay {
 
 
     /* ----- ADD CATEGORY CHOICE ------- */
-    public void addCategory() {
+    public void addCategory() throws IOException{
         String route = "src/Data/category.txt";
         dataModifier dm = new dataModifier();
         ArrayList<String> categoryList  =  dm.readData(route, 1);
@@ -185,7 +185,7 @@ public class adminMenu extends adminGoodsDisplay {
 
     /* ----- UPDATE PRODUCT CHOICES ------- */
 
-    public void updateProduct() {
+    public void updateProduct()  {
         displayGoods();
         String itemRoute = "src/Data/items.txt";
         String categoryRoute = "src/Data/category.txt";
@@ -296,7 +296,7 @@ public class adminMenu extends adminGoodsDisplay {
 
     /* ----- DISPLAY ALL ORDERS FROM CUSTOMERS ------- */
 
-    public void showAllOrders() {
+    public void showAllOrders()  {
     displayData show = new displayData();
     show.displayGoods();
     adminOrderList  menu = new adminOrderList();

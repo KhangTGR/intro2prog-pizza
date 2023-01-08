@@ -1,7 +1,6 @@
 package Model;
 
 public class Product {
-
     private String title;
     private double price;
     private String category;
@@ -45,15 +44,15 @@ public class Product {
 
 
 
-@Override
+    @Override
     public String toString() {
-    return "Product {" +
-            "title='" + title + '\'' +
-            ", price=" + price +
-            ", category='" + category + '\'' +
-            '}';
+        return "Product {" +
+                "title='" + title + '\'' +
+                ", price=" + price +
+                ", category='" + category + '\'' +
+                '}';
 
 
-}
+    }
 
 }

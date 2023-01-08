@@ -1,14 +1,14 @@
 package View;
 import Controller.changeModifier;
-import Controller.dataModifier;
 import utility.displayData;
 
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class adminOrderList {
-    public void displayOrderMenu () {
+    public void displayOrderMenu () throws IOException {
         Scanner scan = new Scanner(System.in);
         int choice;
         System.out.println (
@@ -42,7 +42,7 @@ public class adminOrderList {
 
 
     // CHECK EXISTED IF ORDER IS EXISTS OR NOT
-    public boolean checkExistedId( String route, int index, String id) {
+    public boolean checkExistedId( String route, int index, String id) throws IOException {
         boolean existed = false;
         dataModifier dm = new dataModifier();
         ArrayList<String> list = dm.readData(route, index);
@@ -57,7 +57,7 @@ public class adminOrderList {
 
 
     // CHECK ORDERS FROM CUSTOMER
-    public void orderByCustomer() {
+    public void orderByCustomer() throws IOException{
         String route = "src/Data/Orders.txt";
         displayData dd = new displayData();
         dd.displayGoods();
@@ -76,7 +76,7 @@ public class adminOrderList {
     }
 
 
-    public void changeOrderStatus() {
+    public void changeOrderStatus() throws IOException {
         String route = "src/Data/Orders.txt";
         displayData dd = new displayData();
         dd.displayGoods();
