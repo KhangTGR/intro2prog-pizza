@@ -1,0 +1,7 @@
+ID;fullname;username;password;phonenumber;rank
+2;Nguyen Huynh Quang;Quang2909;Bebong123;0914173304;Regular
+3;Nguyen Trong Khang;Khangdepzai;123456;09123456;Regular
+3;Nguyen Ngoc Huy;Huy;123456;091324556;Regular
+4;Ngo Ba Kha;Khabanh;muoinamsauthang;666666;Regular
+5;Nguyen Trong Huy;Huycute;chaydeadline;09234567;Regular
+6;Mac Van A;iloveu;2909;09234566;Regular

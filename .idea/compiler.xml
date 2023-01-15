@@ -2,7 +2,7 @@
 <project version="4">
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="untitled" options="--add-exports jdk.hotspot.agent/sun.jvm.hotspot.runtime=ALL-UNNAMED" />
+      <module name="intro2prog-pizza" options="--add-exports jdk.hotspot.agent/sun.jvm.hotspot.runtime=ALL-UNNAMED" />
     </option>
   </component>
 </project>

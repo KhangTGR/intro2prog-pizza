@@ -32,7 +32,7 @@ public class categoryModifier {
             FileWriter fd = new FileWriter(this.categoryRoute, true);
             BufferedWriter bw = new BufferedWriter(fd);
             PrintWriter pw = new PrintWriter(bw);
-            pw.println("CATEGORY"+idCreator.idAdditioner(this.categoryRoute)+";"+category.getCategoryName());
+            pw.println("CAT"+idCreator.idAdditioner(this.categoryRoute)+";"+category.getCategoryName());
             pw.flush();
             pw.close();
             System.out.println("Your category has been added successfully !!!");

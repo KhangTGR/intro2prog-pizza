@@ -1,0 +1,2 @@
+id;date;productName;quantity;subtotal;total;customerId;customerName;phoneNum;status
+ORD1;Sat Jan 14 17:32:27 ICT 2023;Iphone 13 PM;2;15.0;15.0;2;Quang2909;0914173304;Suspended

@@ -7,13 +7,7 @@ public class Product {
     private String category;
 
 
-    public Product() {
 
-        this.category = null;
-        this.title = null;
-        this.price = 0;
-
-    }
 
     public Product (String title, double price, String category) {
         this.title = title;

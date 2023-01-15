@@ -1,48 +1,32 @@
-package src.Model;
+package Model;
 
 public class Customer {
-    private String name;
-    private String phone;
-    private String userName;
-    private String password;
+    private String fullName;
+    private String username;
+    private String passWord;
+    private String phoneNumber;
 
-    public Customer(){
-        this.name = null;
-        this.phone = null;
-        this.userName = null;
-        this.password = null;
+    public Customer(String fullName, String username, String passWord, String phoneNumber) {
+        this.fullName = fullName;
+        this.username = username;
+        this.passWord = passWord;
+        this.phoneNumber = phoneNumber;
     }
 
-    public Customer(String name, String phone, String userName, String password) {
-        this.name = name;
-        this.phone = phone;
-        this.userName = userName;
-        this.password = password;
+    public String getFullName() {
+        return fullName;
     }
 
-    public String getName() {
-        return name;
+    public String getUsername() {
+        return username;
     }
 
-    public String getPhone() {
-        return phone;
+    public String getPassWord() {
+        return passWord;
     }
 
-    public String getUserName() {
-        return userName;
+    public String getPhoneNumber() {
+        return phoneNumber;
     }
 
-    public String getPassword() {
-        return password;
-    }
-
-    @Override
-    public String toString(){
-        return "Customer.Customer{" +
-                "fullName is'" + name + '\'' +
-                ", phoneNum='" + phone + '\'' +
-                ", userName is'" + userName + '\'' +
-                ", password='" + password + '\'' +
-                '}';
-    }
 }

@@ -9,13 +9,6 @@ public class OrderMenu {
     private Customer customer;
     private double total;
 
-    public OrderMenu() {
-        this.orders = null;
-        this.date = null;
-        this.customer = null;
-        this.total = 0;
-
-    }
 
     public OrderMenu( ArrayList<Order> orders, Date date, Customer customer, double total) {
         this.orders = orders;

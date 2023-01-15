@@ -7,7 +7,9 @@ import Model.Category;
 import Model.Product;
 import utility.displayData;
 
+
 import javax.annotation.processing.SupportedSourceVersion;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Objects;
@@ -15,7 +17,7 @@ import java.util.Scanner;
 
 
 public class adminMenu extends adminGoodsDisplay {
-    public void displayPanel() {
+    public void displayPanel()  {
         Scanner scan = new Scanner(System.in);
         int choice;
         System.out.println(
@@ -50,6 +52,7 @@ public class adminMenu extends adminGoodsDisplay {
 
     }
 
+ /* BLANK FUNCTION */
 
     @Override
     public void sortByPirce() {
@@ -63,11 +66,11 @@ public class adminMenu extends adminGoodsDisplay {
 
 
     /* ----- ADD PRODUCT CHOICE ------- */
-    public void addProduct () {
+    public void addProduct ()  {
         boolean emerged = false;
         String categoryRoute = "src/Data/category.txt";
         dataModifier data = new dataModifier();
-        ArrayList<String> categoryList  = data.readData(categoryRoute, 1);
+        ArrayList<String> categoryList  = data.readData(categoryRoute,1 );
         categoryList.remove(0);
         Scanner scan =  new Scanner(System.in);
         displayAllGoods();
@@ -143,7 +146,7 @@ public class adminMenu extends adminGoodsDisplay {
 
 
     /* ----- ADD CATEGORY CHOICE ------- */
-    public void addCategory() {
+    public void addCategory()  {
         String route = "src/Data/category.txt";
         dataModifier dm = new dataModifier();
         ArrayList<String> categoryList  =  dm.readData(route, 1);
@@ -185,7 +188,7 @@ public class adminMenu extends adminGoodsDisplay {
 
     /* ----- UPDATE PRODUCT CHOICES ------- */
 
-    public void updateProduct() {
+    public void updateProduct()  {
         displayGoods();
         String itemRoute = "src/Data/items.txt";
         String categoryRoute = "src/Data/category.txt";
@@ -199,7 +202,7 @@ public class adminMenu extends adminGoodsDisplay {
         String id = scan.nextLine();
         dataModifier data = new dataModifier();
 
-        ArrayList<String> productIdList = data. readData(itemRoute, 0);
+        ArrayList<String> productIdList = data.readData(itemRoute, 0);
         ArrayList<String> productTitleList = data.readData(itemRoute, 1);
         ArrayList<String> categoryList = data.readData(categoryRoute,1);
         categoryList.remove(0);
@@ -208,7 +211,7 @@ public class adminMenu extends adminGoodsDisplay {
             idProductMap.put(productIdList.get(i), productTitleList.get(i));
         }
         while(true) {
-            for (String s: productTitleList) {
+            for (String s: productIdList) {
                 if (!s.equals(id)) {
                     exist = false;
                 } else {
@@ -296,7 +299,7 @@ public class adminMenu extends adminGoodsDisplay {
 
     /* ----- DISPLAY ALL ORDERS FROM CUSTOMERS ------- */
 
-    public void showAllOrders() {
+    public void showAllOrders()  {
     displayData show = new displayData();
     show.displayGoods();
     adminOrderList  menu = new adminOrderList();

@@ -16,9 +16,9 @@ public class productModifier {
 
     public boolean uniqueValidator(String productTitle) {
         dataModifier productData = new dataModifier();
-        ArrayList<String> productTitleList = new ArrayList<String>();
+        ArrayList<String> productTitleList = productData.readData(route, 1);
         for (String s: productTitleList) {
-            if ((productTitle.trim().equals(s))) {
+            if ((productTitle.trim()).equals(s)) {
                itDuplicate = true;
                break;
             }
@@ -33,7 +33,7 @@ public class productModifier {
             FileWriter fwrite = new FileWriter(this.route, true);
             BufferedWriter bwriter = new BufferedWriter(fwrite);
             PrintWriter pwriter = new PrintWriter(bwriter);
-            pwriter.println ("ITM" + idAdditioner.idAdditioner(this.route) + ";" + goods.getTitle().trim() +
+            pwriter.println ("ITM" + idAdditioner.idAdditioner(this.route) + ";" + goods.getTitle().trim() +";" +
                     goods.getPrice() + ";" + goods.getCategory());
 
 
@@ -43,7 +43,6 @@ public class productModifier {
 
         }catch (Exception e) {
             System.out.println("There is an error in your system !!!");
-            e.printStackTrace();
         }
 
     }

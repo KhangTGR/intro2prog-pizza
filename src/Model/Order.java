@@ -6,13 +6,7 @@ public class Order {
     private int quantity;
     private double total;
 
-    public Order() {
 
-        this.product = null;
-        this.quantity = 0;
-        this.total = 0;
-
-    }
 
     public Order(Product product, int quantity, double total) {
 

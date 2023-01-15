@@ -4,11 +4,12 @@ import Controller.dataModifier;
 import utility.displayData;
 
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class adminOrderList {
-    public void displayOrderMenu () {
+    public void displayOrderMenu ()  {
         Scanner scan = new Scanner(System.in);
         int choice;
         System.out.println (
@@ -57,29 +58,31 @@ public class adminOrderList {
 
 
     // CHECK ORDERS FROM CUSTOMER
-    public void orderByCustomer() {
+    public void orderByCustomer()  {
         String route = "src/Data/Orders.txt";
         displayData dd = new displayData();
-        dd.displayGoods();
+        dd.displayOrders();
         Scanner scan = new Scanner(System.in);
         System.out.println("Typing id of the customer that you want to check ");
         String customerId = scan.nextLine();
         while (true) {
-            if(checkExistedId(route,1, customerId)) {
+            if(checkExistedId(route,6, customerId)) {
                 break;
             } else {
                 System.out.println("This client id is not exist or they have not made any orders yet. Please choose another customers :");
                 customerId = scan.nextLine();
             }
         }
+        dd.displayOrderClient(customerId);
+        displayOrderMenu();
 
     }
 
 
-    public void changeOrderStatus() {
+    public void changeOrderStatus()  {
         String route = "src/Data/Orders.txt";
         displayData dd = new displayData();
-        dd.displayGoods();
+        dd.displayOrders();
 
         Scanner scan = new Scanner(System.in);
         System.out.println(" Please enter an order that you want to edit status of it");
@@ -96,8 +99,8 @@ public class adminOrderList {
         System.out.println("Please typing your new status :");
         String status = scan.nextLine();
         changeModifier change = new changeModifier();
-        change.changeOrderStatus();
-        dd.displayGoods();
+        change.changeOrderStatus(route,status,orderId);
+        dd.displayOrders();
         displayOrderMenu();
 
 

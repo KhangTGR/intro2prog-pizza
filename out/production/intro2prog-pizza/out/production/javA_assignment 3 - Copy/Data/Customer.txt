@@ -1,0 +1,1 @@
+ID;fullname;username;password;phonenumber;rank

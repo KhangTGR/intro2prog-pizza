@@ -1,0 +1,10 @@
+id;category
+CATEGORY1;Phone
+CATEGORY2;Headset
+CATEGORY3;Laptop
+CATEGORY4;Socket
+CATEGORY5;PC
+CATEGORY6;Watch
+CATEGORY7;Earbud
+
+
