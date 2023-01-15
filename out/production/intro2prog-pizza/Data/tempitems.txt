@@ -1,0 +1,13 @@
+id;date;productName;quantity;subtotal;total;customerId;customerName;phoneNum;status
+ORD1;Sat Jan 14 17:32:27 ICT 2023;Iphone 13 PM;2;15.0;15.0;2;Quang2909;0914173304;Delivered
+id;title;price;category
+ITM1;Dell XPS 17;5.5;Laptop
+ITM2;Macbook Air M1;5.6;Magazine
+ITM3;Samsung Galaxy S22;4.5;Phone
+ITM4;Iphone 13 PM;7.5;Phone
+ITM5;Harman Kardon;3.5;Earbud
+ITM6;Marshall;6.0;Headset
+ITM7;Macbook Air;4.5;Laptop
+ITM8;Bia 333;2.9;Headset
+ITM9;Iphone 15;3.5;Phone
+ITM10;Apple;10.0;Fruit

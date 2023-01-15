@@ -6,3 +6,4 @@ CAT4;Headset
 CAT5;Ipad
 CAT6;Trackpad
 CAT7;Magazine
+CAT8;Fruit

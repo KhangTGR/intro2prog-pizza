@@ -1,3 +1,6 @@
 id;date;productName;quantity;subtotal;total;customerId;customerName;phoneNum;status
 ORD1;Sat Jan 14 17:32:27 ICT 2023;Iphone 13 PM;2;15.0;15.0;2;Quang2909;0914173304;Suspended
-ORD2;Sat Jan 14 18:09:29 ICT 2023;Samsung Galaxy S22;2;9.0;9.0;6;iloveu;09234566;Delivered
+ORD2;Sun Jan 15 11:22:33 ICT 2023;Harman Kardon;100;350.0;3500350.0;7;khangtgr;123456789;Delivered
+ORD2;Sun Jan 15 11:22:33 ICT 2023;Iphone 15;1000000;3500000.0;3500350.0;7;khangtgr;123456789;Delivered
+ORD4;Sun Jan 15 20:20:13 ICT 2023;Harman Kardon;1000;3500.0;41000.0;8;leo;123456789;Delivered
+ORD4;Sun Jan 15 20:20:13 ICT 2023;Iphone 13 PM;5000;37500.0;41000.0;8;leo;123456789;Delivered
